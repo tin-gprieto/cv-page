@@ -455,10 +455,17 @@ function buildConfig(): void {
       languages: { es: "Idiomas", en: "Languages" },
       contact: { es: "Contacto", en: "Contact" },
     },
-    footerText: {
-      es: `Última actualización: ${spanishData.settings?.current_date || new Date().toISOString().split("T")[0]}`,
-      en: `Last updated: ${spanishData.settings?.current_date || new Date().toISOString().split("T")[0]}`,
-    },
+    footerText: (() => {
+      const currentDate = spanishData.settings?.current_date || new Date().toISOString().split("T")[0]
+      const [year, month] = currentDate.split("-")
+      const monthIndex = parseInt(month, 10) - 1
+      const esMonths = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
+      const enMonths = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+      return {
+        es: `© ${new Date().getFullYear()} - ${esData.header.name}. Todos los derechos reservados. Última actualización: ${esMonths[monthIndex]} ${year}`,
+        en: `© ${new Date().getFullYear()} - ${enData.header.name}. All rights reserved. Last updated: ${enMonths[monthIndex]} ${year}`,
+      }
+    })(),
   }
 
   // Write config

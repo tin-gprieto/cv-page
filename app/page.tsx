@@ -9,11 +9,9 @@ import { Skills } from "@/components/skills"
 import { Projects } from "@/components/projects"
 import { Certifications } from "@/components/certifications"
 import { Contact } from "@/components/contact"
+import { cvConfig } from "@/lib/config"
 
-const footerText = {
-  es: "Última actualización: Enero 2026",
-  en: "Last updated: January 2026",
-}
+const { footerText } = cvConfig
 
 export default function CVPage() {
   const [lang, setLang] = useState<"es" | "en">("es")
