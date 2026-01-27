@@ -104,10 +104,11 @@ export function Education({ lang }: EducationProps) {
   return (
     <section>
       <SectionTitle icon={GraduationCap} title={sectionTitle[lang]} />
-      <div className="mt-6 space-y-6">
+      <div className="mt-6 space-y-4 sm:space-y-6">
         {data.map((edu, index) => (
           <TimelineCard
             key={index}
+            index={index}
             title={edu.institution}
             subtitle={`${edu.degree} - ${edu.area}`}
             date={`${edu.startDate} - ${edu.endDate}`}

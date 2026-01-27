@@ -102,10 +102,11 @@ export function Experience({ lang }: ExperienceProps) {
   return (
     <section>
       <SectionTitle icon={Briefcase} title={sectionTitle[lang]} />
-      <div className="mt-6 space-y-6">
+      <div className="mt-6 space-y-4 sm:space-y-6">
         {data.map((exp, index) => (
           <TimelineCard
             key={index}
+            index={index}
             title={exp.company}
             subtitle={exp.position}
             date={`${exp.startDate} - ${exp.endDate}`}

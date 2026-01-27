@@ -68,14 +68,14 @@ export function Navbar({ lang, onToggleLang }: NavbarProps) {
 
       {/* Mobile menu */}
       {mobileMenuOpen && (
-        <div className="border-t border-border bg-background px-4 py-3 sm:hidden">
+        <div className="border-t border-border bg-background/95 backdrop-blur-sm px-4 py-3 sm:hidden animate-slide-in-right">
           <div className="flex flex-col gap-2">
             <button
               onClick={() => {
                 onToggleLang()
                 setMobileMenuOpen(false)
               }}
-              className="flex items-center gap-2 rounded-md border border-border bg-secondary px-3 py-2 text-sm font-medium text-secondary-foreground transition-colors hover:border-primary hover:text-primary"
+              className="flex items-center gap-2 rounded-md border border-border bg-secondary px-3 py-2.5 text-sm font-medium text-secondary-foreground transition-all hover:border-primary hover:text-primary active:scale-[0.98]"
             >
               <Languages className="h-4 w-4" />
               {t.translate}
@@ -85,7 +85,7 @@ export function Navbar({ lang, onToggleLang }: NavbarProps) {
                 handleDownload()
                 setMobileMenuOpen(false)
               }}
-              className="flex items-center gap-2 rounded-md bg-primary px-3 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
+              className="flex items-center gap-2 rounded-md bg-primary px-3 py-2.5 text-sm font-medium text-primary-foreground transition-all hover:bg-primary/90 active:scale-[0.98]"
             >
               <Download className="h-4 w-4" />
               {t.download}
