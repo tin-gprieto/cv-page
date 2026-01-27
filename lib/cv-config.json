@@ -209,17 +209,6 @@
           "Modelos de clasificación y resumen",
           "Implementación práctica con IBM Granite"
         ]
-      },
-      {
-        "name": "Data Classification and Summarization Using IBM Granite",
-        "issuer": "IBM",
-        "url": "https://www.credly.com/badges/c2c46184-e493-417c-bf6e-61c9c393b443",
-        "summary": "Curso de IBM sobre clasificación y resumen de datos utilizando IBM Granite.",
-        "highlights": [
-          "Técnicas de preprocesamiento de datos",
-          "Modelos de clasificación y resumen",
-          "Implementación práctica con IBM Granite"
-        ]
       }
     ],
     "en": [
@@ -272,17 +261,6 @@
           "Gestión de componentes mediante memoria dinámica",
           "Funciones auxiliares para agilizar el testeo unitario",
           "Organización modular en Interfaz, TDAs y Tools"
-        ]
-      },
-      {
-        "name": "Darkness Awesome Theme",
-        "url": "https://github.com/tin-gprieto/awesome",
-        "image": "/images/project-awesome.jpg",
-        "summary": "Tema personalizado para el gestor de ventanas Awesome WM para Linux, enfocado en una estética oscura e integración de widgets informativos.",
-        "highlights": [
-          "Configuración de entorno de escritorio escrita en Lua",
-          "Widgets de batería, temperatura y Spotify integrados",
-          "Personalización estética de fondos, íconos y resolución"
         ]
       },
       {
