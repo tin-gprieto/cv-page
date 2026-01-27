@@ -1,25 +1,13 @@
 import { Languages as LanguagesIcon } from "lucide-react"
 import { SectionTitle } from "./section-title"
+import { cvConfig } from "@/lib/config"
 
 interface LanguagesProps {
   lang: "es" | "en"
 }
 
-const languagesData = {
-  es: [
-    { language: "Español", level: "Nativo", percentage: 100 },
-    { language: "Inglés", level: "Intermedio", percentage: 65 },
-  ],
-  en: [
-    { language: "Spanish", level: "Native", percentage: 100 },
-    { language: "English", level: "Intermediate", percentage: 65 },
-  ],
-}
-
-const sectionTitle = {
-  es: "Idiomas",
-  en: "Languages",
-}
+const languagesData = cvConfig.languages
+const sectionTitle = cvConfig.sectionTitles.languages
 
 export function Languages({ lang }: LanguagesProps) {
   const languages = languagesData[lang]

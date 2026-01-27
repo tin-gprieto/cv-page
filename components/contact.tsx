@@ -6,49 +6,13 @@ import { useState } from "react"
 import { Mail, Send, CheckCircle, AlertCircle } from "lucide-react"
 import { SectionTitle } from "./section-title"
 import { AnimateOnScroll } from "./animate-on-scroll"
+import { cvConfig } from "@/lib/config"
 
 interface ContactProps {
   lang: "es" | "en"
 }
 
-const translations = {
-  es: {
-    title: "Contacto",
-    description: "¿Tienes alguna pregunta o propuesta? No dudes en contactarme.",
-    nameLabel: "Nombre",
-    namePlaceholder: "Tu nombre",
-    emailLabel: "Email",
-    emailPlaceholder: "tu@email.com",
-    subjectLabel: "Asunto",
-    subjectPlaceholder: "Asunto del mensaje",
-    messageLabel: "Mensaje",
-    messagePlaceholder: "Escribe tu mensaje aquí...",
-    send: "Enviar mensaje",
-    sending: "Enviando...",
-    successTitle: "Mensaje enviado",
-    successMessage: "Gracias por contactarme. Te responderé lo antes posible.",
-    errorTitle: "Error",
-    errorMessage: "Hubo un problema al enviar el mensaje. Intenta nuevamente.",
-  },
-  en: {
-    title: "Contact",
-    description: "Have any questions or proposals? Feel free to contact me.",
-    nameLabel: "Name",
-    namePlaceholder: "Your name",
-    emailLabel: "Email",
-    emailPlaceholder: "you@email.com",
-    subjectLabel: "Subject",
-    subjectPlaceholder: "Message subject",
-    messageLabel: "Message",
-    messagePlaceholder: "Write your message here...",
-    send: "Send message",
-    sending: "Sending...",
-    successTitle: "Message sent",
-    successMessage: "Thanks for reaching out. I will reply as soon as possible.",
-    errorTitle: "Error",
-    errorMessage: "There was a problem sending the message. Please try again.",
-  },
-}
+const translations = cvConfig.translations.contact
 
 export function Contact({ lang }: ContactProps) {
   const t = translations[lang]

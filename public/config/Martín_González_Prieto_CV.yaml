@@ -123,7 +123,7 @@ cv:
           - Técnicas de preprocesamiento de datos
           - Modelos de clasificación y resumen
           - Implementación práctica con IBM Granite
-    
+      
     proyects:
       - name: '[Agentes Autónomos de Prevención](https://github.com/tin-gprieto/taller-rust)'
         summary: Trabajo grupal final para la materia "Taller de Programación" que consiste en el desarrollo de un sistema de seguridad urbana con drones y cámaras que detectan y resuelven incidentes mediante mensajería asincrónica y visión artificial.

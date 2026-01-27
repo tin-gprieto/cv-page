@@ -2,102 +2,14 @@ import Image from "next/image"
 import { FolderGit2, ExternalLink } from "lucide-react"
 import { SectionTitle } from "./section-title"
 import { AnimateOnScroll } from "./animate-on-scroll"
+import { cvConfig } from "@/lib/config"
 
 interface ProjectsProps {
   lang: "es" | "en"
 }
 
-const projectsData = {
-  es: [
-    {
-      name: "Agentes Autónomos de Prevención",
-      url: "https://github.com/tin-gprieto/taller-rust",
-      image: "/images/project-drones.jpg",
-      summary:
-        'Trabajo grupal final para la materia "Taller de Programación" que consiste en el desarrollo de un sistema de seguridad urbana con drones y cámaras que detectan y resuelven incidentes mediante mensajería asincrónica y visión artificial.',
-      highlights: [
-        "Desarrollado en Rust para ambientes Unix y Linux",
-        "Implementación propia del protocolo MQTT 5.0 con QoS 1",
-        "Coordinación de drones y cámaras mediante arquitectura Pub/Sub",
-        "Detección de incidentes con Microsoft Azure AI Vision",
-        "Gestión de concurrencia mediante hilos y threadpools",
-      ],
-    },
-    {
-      name: "Toolbox para C",
-      url: "https://github.com/tin-gprieto/c_toolbox",
-      image: "/images/project-toolbox.jpg",
-      summary:
-        "Colección de herramientas personales en C para la creación de interfaces de terminal, estructuras de datos y testeo unitario.",
-      highlights: [
-        "Interfaz de terminal interactiva con colores ANSI",
-        "Implementación de TDAs como Listas, Colas y Hash",
-        "Gestión de componentes mediante memoria dinámica",
-        "Funciones auxiliares para agilizar el testeo unitario",
-        "Organización modular en Interfaz, TDAs y Tools",
-      ],
-    },
-    {
-      name: "Darkness Awesome Theme",
-      url: "https://github.com/tin-gprieto/awesome",
-      image: "/images/project-awesome.jpg",
-      summary:
-        "Tema personalizado para el gestor de ventanas Awesome WM para Linux, enfocado en una estética oscura e integración de widgets informativos.",
-      highlights: [
-        "Configuración de entorno de escritorio escrita en Lua",
-        "Widgets de batería, temperatura y Spotify integrados",
-        "Personalización estética de fondos, íconos y resolución",
-      ],
-    },
-  ],
-  en: [
-    {
-      name: "Autonomous Prevention Agents",
-      url: "https://github.com/tin-gprieto/taller-rust",
-      image: "/images/project-drones.jpg",
-      summary:
-        'Final group project for the "Programming Workshop" course consisting of the development of an urban security system with drones and cameras that detect and resolve incidents through asynchronous messaging and artificial vision.',
-      highlights: [
-        "Developed in Rust for Unix and Linux environments",
-        "Custom implementation of MQTT 5.0 protocol with QoS 1",
-        "Drone and camera coordination via Pub/Sub architecture",
-        "Incident detection with Microsoft Azure AI Vision",
-        "Concurrency management through threads and threadpools",
-      ],
-    },
-    {
-      name: "C Toolbox",
-      url: "https://github.com/tin-gprieto/c_toolbox",
-      image: "/images/project-toolbox.jpg",
-      summary:
-        "Personal tools collection in C for creating terminal interfaces, data structures and unit testing.",
-      highlights: [
-        "Interactive terminal interface with ANSI colors",
-        "Implementation of ADTs like Lists, Queues and Hash",
-        "Component management through dynamic memory",
-        "Helper functions to speed up unit testing",
-        "Modular organization in Interface, ADTs and Tools",
-      ],
-    },
-    {
-      name: "Darkness Awesome Theme",
-      url: "https://github.com/tin-gprieto/awesome",
-      image: "/images/project-awesome.jpg",
-      summary:
-        "Custom theme for Awesome WM window manager for Linux, focused on a dark aesthetic and informative widget integration.",
-      highlights: [
-        "Desktop environment configuration written in Lua",
-        "Integrated battery, temperature and Spotify widgets",
-        "Aesthetic customization of backgrounds, icons and resolution",
-      ],
-    },
-  ],
-}
-
-const sectionTitle = {
-  es: "Proyectos",
-  en: "Projects",
-}
+const projectsData = cvConfig.projects
+const sectionTitle = cvConfig.sectionTitles.projects
 
 export function Projects({ lang }: ProjectsProps) {
   const projects = projectsData[lang]

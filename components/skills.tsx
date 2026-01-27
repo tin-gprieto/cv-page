@@ -8,128 +8,28 @@ import {
   Wrench,
   FileSpreadsheet,
   Languages as LanguagesIcon,
+  LucideIcon,
 } from "lucide-react"
 import { SectionTitle } from "./section-title"
 import { AnimateOnScroll } from "./animate-on-scroll"
+import { cvConfig, TechnicalSkillCategory } from "@/lib/config"
 
 interface SkillsProps {
   lang: "es" | "en"
 }
 
-const skillsData = {
-  es: {
-    title: "Habilidades",
-    technical: [
-      {
-        label: "Lenguajes de programación",
-        icon: Code,
-        items: ["C", "Python", "Rust", "JavaScript", "TypeScript", "Java", "Assembly", "SQL", "Bash (Shell Scripting)"],
-      },
-      {
-        label: "Desarrollo web",
-        icon: Globe,
-        items: ["HTML", "CSS", "SASS", "React", "Angular JS"],
-      },
-      {
-        label: "Machine Learning y Deep Learning",
-        icon: Brain,
-        items: ["PyTorch", "TensorFlow", "Scikit-learn", "Keras"],
-      },
-      {
-        label: "Visualización de datos",
-        icon: BarChart3,
-        items: ["Matplotlib", "Seaborn", "Plotly"],
-      },
-      {
-        label: "Bases de datos (SGBD)",
-        icon: Database,
-        items: ["MongoDB", "PostgreSQL", "Pandas"],
-      },
-      {
-        label: "Herramientas",
-        icon: Wrench,
-        items: ["Docker", "Linux", "Git", "Github", "Makefile", "Jupyter Notebooks"],
-      },
-      {
-        label: "Ofimática",
-        icon: FileSpreadsheet,
-        items: ["Excel (intermedio)", "Sony Vegas", "GIMP"],
-      },
-    ],
-    soft: {
-      label: "Habilidades Blandas",
-      items: [
-        "Comunicación efectiva y trabajo en equipo",
-        "Pensamiento crítico y resolución de problemas",
-        "Organización y optimización de tareas",
-        "Adaptabilidad a nuevos desafíos",
-      ],
-    },
-    languages: {
-      label: "Idiomas",
-      items: [
-        { language: "Español", level: "Nativo", percentage: 100 },
-        { language: "Inglés", level: "Intermedio", percentage: 65 },
-      ],
-    },
-  },
-  en: {
-    title: "Skills",
-    technical: [
-      {
-        label: "Programming Languages",
-        icon: Code,
-        items: ["C", "Python", "Rust", "JavaScript", "TypeScript", "Java", "Assembly", "SQL", "Bash (Shell Scripting)"],
-      },
-      {
-        label: "Web Development",
-        icon: Globe,
-        items: ["HTML", "CSS", "SASS", "React", "Angular JS"],
-      },
-      {
-        label: "Machine Learning & Deep Learning",
-        icon: Brain,
-        items: ["PyTorch", "TensorFlow", "Scikit-learn", "Keras"],
-      },
-      {
-        label: "Data Visualization",
-        icon: BarChart3,
-        items: ["Matplotlib", "Seaborn", "Plotly"],
-      },
-      {
-        label: "Databases (DBMS)",
-        icon: Database,
-        items: ["MongoDB", "PostgreSQL", "Pandas"],
-      },
-      {
-        label: "Tools",
-        icon: Wrench,
-        items: ["Docker", "Linux", "Git", "Github", "Makefile", "Jupyter Notebooks"],
-      },
-      {
-        label: "Office Tools",
-        icon: FileSpreadsheet,
-        items: ["Excel (intermediate)", "Sony Vegas", "GIMP"],
-      },
-    ],
-    soft: {
-      label: "Soft Skills",
-      items: [
-        "Effective communication and teamwork",
-        "Critical thinking and problem solving",
-        "Organization and task optimization",
-        "Adaptability to new challenges",
-      ],
-    },
-    languages: {
-      label: "Languages",
-      items: [
-        { language: "Spanish", level: "Native", percentage: 100 },
-        { language: "English", level: "Intermediate", percentage: 65 },
-      ],
-    },
-  },
+// Map icon names to actual icon components
+const iconMap: Record<TechnicalSkillCategory["iconName"], LucideIcon> = {
+  Code,
+  Globe,
+  Brain,
+  BarChart3,
+  Database,
+  Wrench,
+  FileSpreadsheet,
 }
+
+const skillsData = cvConfig.skills
 
 export function Skills({ lang }: SkillsProps) {
   const data = skillsData[lang]
@@ -140,7 +40,7 @@ export function Skills({ lang }: SkillsProps) {
       <div className="mt-6 grid gap-3 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:gap-4">
         {/* Technical Skills - Each as a separate card */}
         {data.technical.map((category, index) => {
-          const Icon = category.icon
+          const Icon = iconMap[category.iconName]
           return (
             <AnimateOnScroll key={index} animation="scale-up" delay={index * 50}>
               <div className="group h-full rounded-lg border border-border bg-card p-4 transition-all hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 sm:p-5">
