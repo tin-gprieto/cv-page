@@ -61,24 +61,6 @@ export function Skills({ lang }: SkillsProps) {
           )
         })}
 
-        {/* Soft Skills - Separate card */}
-        <AnimateOnScroll animation="scale-up" delay={350}>
-          <div className="group h-full rounded-lg border border-border bg-card p-4 transition-all hover:border-accent/50 hover:shadow-lg hover:shadow-accent/5 sm:p-5">
-            <h3 className="mb-3 flex items-center gap-2 text-xs font-semibold text-accent sm:mb-4 sm:text-sm">
-              <Lightbulb className="h-4 w-4 transition-transform group-hover:scale-110" />
-              {data.soft.label}
-            </h3>
-            <ul className="space-y-1 sm:space-y-1.5">
-              {data.soft.items.map((skill, index) => (
-                <li key={index} className="flex items-start gap-2 text-xs text-muted-foreground sm:text-sm">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent/50 transition-colors group-hover:bg-accent" />
-                  {skill}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </AnimateOnScroll>
-
         {/* Languages - Separate card */}
         <AnimateOnScroll animation="scale-up" delay={400}>
           <div className="group h-full rounded-lg border border-border bg-card p-4 transition-all hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 sm:p-5">
@@ -102,6 +84,24 @@ export function Skills({ lang }: SkillsProps) {
                 </div>
               ))}
             </div>
+          </div>
+        </AnimateOnScroll>
+
+        {/* Soft Skills - Separate card */}
+        <AnimateOnScroll animation="scale-up" delay={350}>
+          <div className="group h-full rounded-lg border border-border bg-card p-4 transition-all hover:border-accent/50 hover:shadow-lg hover:shadow-accent/5 sm:p-5">
+            <h3 className="mb-3 flex items-center gap-2 text-xs font-semibold text-accent sm:mb-4 sm:text-sm">
+              <Lightbulb className="h-4 w-4 transition-transform group-hover:scale-110" />
+              {data.soft.label}
+            </h3>
+            <ul className="space-y-1 sm:space-y-1.5">
+              {data.soft.items.map((skill, index) => (
+                <li key={index} className="flex items-start gap-2 text-xs text-muted-foreground sm:text-sm">
+                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent/50 transition-colors group-hover:bg-accent" />
+                  {skill}
+                </li>
+              ))}
+            </ul>
           </div>
         </AnimateOnScroll>
       </div>
