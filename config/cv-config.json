@@ -356,8 +356,7 @@
             "TypeScript",
             "Java",
             "Assembly",
-            "SQL",
-            "Bash (Shell Scripting)"
+            "SQL"
           ]
         },
         {
@@ -386,8 +385,7 @@
           "iconName": "BarChart3",
           "items": [
             "Matplotlib",
-            "Seaborn",
-            "Plotly"
+            "Seaborn"
           ]
         },
         {
@@ -395,8 +393,7 @@
           "iconName": "Database",
           "items": [
             "MongoDB",
-            "PostgreSQL",
-            "Pandas"
+            "PostgreSQL"
           ]
         },
         {
@@ -408,7 +405,7 @@
             "Git",
             "Github",
             "Makefile",
-            "Jupyter Notebooks"
+            "Bash (Shell Scripting)"
           ]
         },
         {
@@ -460,8 +457,7 @@
             "TypeScript",
             "Java",
             "Assembly",
-            "SQL",
-            "Bash (Shell Scripting)"
+            "SQL"
           ]
         },
         {
@@ -490,8 +486,7 @@
           "iconName": "BarChart3",
           "items": [
             "Matplotlib",
-            "Seaborn",
-            "Plotly"
+            "Seaborn"
           ]
         },
         {
@@ -499,8 +494,7 @@
           "iconName": "Database",
           "items": [
             "MongoDB",
-            "PostgreSQL",
-            "Pandas"
+            "PostgreSQL"
           ]
         },
         {
@@ -512,14 +506,14 @@
             "Git",
             "Github",
             "Makefile",
-            "Jupyter Notebooks"
+            "Bash (Shell Scripting)"
           ]
         },
         {
           "label": "Office automation",
           "iconName": "FileSpreadsheet",
           "items": [
-            "Excel (intermediate)",
+            "Excel (intermedio)",
             "Sony Vegas",
             "GIMP"
           ]
@@ -630,5 +624,9 @@
       "es": "Contacto",
       "en": "Contact"
     }
+  },
+  "footerText": {
+    "es": "Última actualización: 2026-01-26",
+    "en": "Last updated: 2026-01-26"
   }
 }

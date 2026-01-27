@@ -57,6 +57,11 @@ interface YAMLLocale {
   language?: string
   present?: string
   month_abbreviations?: string[]
+  last_updated?: string
+}
+
+interface YAMLSettings {
+  current_date?: string
 }
 
 interface YAMLData {
@@ -78,6 +83,7 @@ interface YAMLData {
     }
   }
   locale?: YAMLLocale
+  settings?: YAMLSettings
 }
 
 // ============================================================================
@@ -355,7 +361,7 @@ function transformYAML(yamlData: YAMLData, lang: "es" | "en") {
 function buildConfig(): void {
   console.log("📦 Building CV config from YAML files...")
 
-  const configDir = path.join(process.cwd(), "public", "config")
+  const configDir = path.join(process.cwd(), "config")
   
   // Load Spanish YAML
   const spanishPath = path.join(configDir, "Martín_González_Prieto_CV.yaml")
@@ -449,10 +455,14 @@ function buildConfig(): void {
       languages: { es: "Idiomas", en: "Languages" },
       contact: { es: "Contacto", en: "Contact" },
     },
+    footerText: {
+      es: `Última actualización: ${spanishData.settings?.current_date || new Date().toISOString().split("T")[0]}`,
+      en: `Last updated: ${spanishData.settings?.current_date || new Date().toISOString().split("T")[0]}`,
+    },
   }
 
   // Write config
-  const outputPath = path.join(process.cwd(), "lib", "cv-config.json")
+  const outputPath = path.join(process.cwd(), "config", "cv-config.json")
   fs.writeFileSync(outputPath, JSON.stringify(config, null, 2), "utf8")
   console.log("✅ Config built:", outputPath)
 }

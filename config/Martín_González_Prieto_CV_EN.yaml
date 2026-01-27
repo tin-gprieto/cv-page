@@ -1,5 +1,5 @@
 cv:
-  name: Martin Gonzalez Prieto
+  name: Martín González Prieto
   headline: Advanced Computer Engineering student
   location: Buenos Aires, Argentina
   email: mgonzalezp@fi.uba.ar
@@ -79,17 +79,17 @@ cv:
       - bullet: English — Intermediate
     technical_skills:
       - label: Programming languages
-        details: C, Python, Rust, JavaScript, TypeScript, Java, Assembly, SQL, Bash (Shell Scripting)
+        details: C, Python, Rust, JavaScript, TypeScript, Java, Assembly, SQL
       - label: Web development
         details: HTML, CSS, SASS, React, Angular JS
       - label: Machine Learning and Deep Learning
         details: PyTorch, TensorFlow, Scikit-learn, Keras
       - label: Data visualization tools
-        details: Matplotlib, Seaborn, Plotly
+        details: Matplotlib, Seaborn
       - label: Database management systems (DBMS)
-        details: MongoDB, PostgreSQL, Pandas
+        details: MongoDB, PostgreSQL
       - label: Tools
-        details: Docker, Linux, Git, Github, Makefile, Jupyter Notebooks
+        details: Docker, Linux, Git, Github, Makefile, Bash (Shell Scripting)
       - label: Office automation
         details: Excel (intermedio), Sony Vegas, GIMP
     soft_skills:

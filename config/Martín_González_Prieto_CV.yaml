@@ -91,17 +91,17 @@ cv:
     
     technical_skills:
       - label: Lenguajes de programación
-        details: C, Python, Rust, JavaScript, TypeScript, Java, Assembly, SQL, Bash (Shell Scripting)
+        details: C, Python, Rust, JavaScript, TypeScript, Java, Assembly, SQL
       - label: Desarrollo web
         details: HTML, CSS, SASS, React, Angular JS
       - label: Machine Learning y Deep Learning
         details: PyTorch, TensorFlow, Scikit-learn, Keras
       - label: Herramientas de visualización de datos
-        details: Matplotlib, Seaborn, Plotly
+        details: Matplotlib, Seaborn
       - label: Sistemas de gestión de bases de datos (SGBD)
-        details: MongoDB, PostgreSQL, Pandas
+        details: MongoDB, PostgreSQL
       - label: Herramientas
-        details: Docker, Linux, Git, Github, Makefile, Jupyter Notebooks
+        details: Docker, Linux, Git, Github, Makefile, Bash (Shell Scripting)
       - label: Ofimática
         details: Excel (intermedio), Sony Vegas, GIMP
 

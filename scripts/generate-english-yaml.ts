@@ -117,10 +117,10 @@ async function translateText(text: string): Promise<string> {
   try {
     // Small delay to avoid rate limiting
     await new Promise(resolve => setTimeout(resolve, 150))
-    const result = await translate(text)
+    const result = await translate(text, { from: "es", to: "en" })
     return result
   } catch (error) {
-    console.error(`  ⚠️ Failed to translate: "${text.substring(0, 50)}..."`)
+    console.error(`  ⚠️ Failed to translate: "${text.substring(0, 50)}..."`, error)
     return text
   }
 }
@@ -141,7 +141,7 @@ async function generateEnglishYAML(): Promise<void> {
   console.log("🌐 Starting English YAML generation...")
 
   // Load Spanish YAML
-  const spanishPath = path.join(process.cwd(), "public", "config", "Martín_González_Prieto_CV.yaml")
+  const spanishPath = path.join(process.cwd(), "config", "Martín_González_Prieto_CV.yaml")
   const spanishContent = fs.readFileSync(spanishPath, "utf8")
   const spanishData = yaml.load(spanishContent) as YAMLData
 
@@ -252,7 +252,7 @@ async function generateEnglishYAML(): Promise<void> {
   }
 
   // Save English YAML
-  const englishPath = path.join(process.cwd(), "public", "config", "Martín_González_Prieto_CV_EN.yaml")
+  const englishPath = path.join(process.cwd(), "config", "Martín_González_Prieto_CV_EN.yaml")
   const englishYAML = yaml.dump(englishData, { 
     lineWidth: -1,
     noRefs: true,

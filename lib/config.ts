@@ -161,11 +161,15 @@ export interface CVConfig {
     }
   }
   sectionTitles: SectionTitles
+  footerText: {
+    es: string
+    en: string
+  }
 }
 
 // ============================================================================
 // CV Data - Loaded from pre-built JSON (generated from YAML files)
 // ============================================================================
-import cvConfigData from "./cv-config.json"
+import cvConfigData from "../config/cv-config.json"
 
 export const cvConfig: CVConfig = cvConfigData as CVConfig
