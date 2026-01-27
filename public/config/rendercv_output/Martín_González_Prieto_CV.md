@@ -173,5 +173,3 @@ Tema personalizado para el gestor de ventanas Awesome WM para Linux, enfocado en
 - Widgets de batería, temperatura y Spotify integrados.
 
 - Personalización estética de fondos, íconos y resolución.
-
-

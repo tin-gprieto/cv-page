@@ -173,5 +173,3 @@ Custom theme for the Awesome WM window manager for Linux, focused on a dark aest
 - Integrated battery, temperature and Spotify widgets.
 
 - Aesthetic customization of backgrounds, icons and resolution.
-
-
