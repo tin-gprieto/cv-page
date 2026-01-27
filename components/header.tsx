@@ -2,25 +2,13 @@
 
 import { Mail, Phone, MapPin, Linkedin, Github } from "lucide-react"
 import { AnimateOnScroll } from "./animate-on-scroll"
+import { cvConfig } from "@/lib/config"
 
 interface HeaderProps {
   lang: "es" | "en"
 }
 
-const cvData = {
-  name: "Martín González Prieto",
-  headline: {
-    es: "Estudiante avanzado de Ingeniería en Informática",
-    en: "Advanced Computer Engineering Student",
-  },
-  location: "Buenos Aires, Argentina",
-  email: "mgonzalezp@fi.uba.ar",
-  phone: "+54 11 2235-8723",
-  socialNetworks: [
-    { network: "LinkedIn", username: "mgonpri", url: "https://linkedin.com/in/mgonpri" },
-    { network: "GitHub", username: "tin-gprieto", url: "https://github.com/tin-gprieto" },
-  ],
-}
+const cvData = cvConfig.header
 
 export function Header({ lang }: HeaderProps) {
   return (
@@ -28,7 +16,7 @@ export function Header({ lang }: HeaderProps) {
       <AnimateOnScroll animation="scale-up">
         <div className="mb-6">
           <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-primary/10 text-primary animate-pulse-glow sm:h-24 sm:w-24">
-            <span className="text-2xl font-bold sm:text-3xl">MG</span>
+            <img src="/pp.jpg" alt="Profile Picture" className="rounded-full" />
           </div>
           <h1 className="text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl md:text-5xl">
             {cvData.name}

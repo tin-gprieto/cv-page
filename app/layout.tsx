@@ -8,7 +8,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Martín González Prieto | Ingeniero en Informática',
+  title: 'Martín González Prieto | Estudiante de Ingeniería en Informática',
   description: 'Estudiante avanzado de Ingeniería en Informática en FIUBA. Desarrollador Frontend con experiencia en React, Angular y tecnologías web.',
   generator: 'v0.app',
   icons: {

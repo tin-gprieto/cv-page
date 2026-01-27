@@ -1,0 +1,634 @@
+{
+  "header": {
+    "name": "Martín González Prieto",
+    "headline": {
+      "es": "Estudiante avanzado de Ingeniería en Informática",
+      "en": "Advanced Computer Engineering student"
+    },
+    "location": "Buenos Aires, Argentina",
+    "email": "mgonzalezp@fi.uba.ar",
+    "phone": "+54 11 2235-8723",
+    "socialNetworks": [
+      {
+        "network": "LinkedIn",
+        "username": "mgonpri",
+        "url": "https://linkedin.com/in/mgonpri"
+      },
+      {
+        "network": "GitHub",
+        "username": "tin-gprieto",
+        "url": "https://github.com/tin-gprieto"
+      }
+    ]
+  },
+  "experience": {
+    "es": [
+      {
+        "company": "FIUBA",
+        "position": "Ayudante ad honorem",
+        "startDate": "Mar 2024",
+        "endDate": "Jun 2025",
+        "location": "Buenos Aires, Argentina",
+        "summary": "Colaboración docente en la materia “Organización del Computador\" de la carrera de Ingeniería en Informática.",
+        "highlights": [
+          "Corrección de trabajos prácticos",
+          "Contenidos: representación binaria, microarquitectura x86, Assembly y caching"
+        ]
+      },
+      {
+        "company": "Centro Argentino de Ingenieros (CAI)",
+        "position": "Secretario Ejecutivo de CEPSI y NGL",
+        "startDate": "May 2024",
+        "endDate": "Dec 2024",
+        "location": "Buenos Aires, Argentina",
+        "summary": "Pasantía en rol administrativo dentro de comisiones directivas y técnicas.",
+        "highlights": [
+          "Gestión de tareas administrativas",
+          "Coordinación de reuniones",
+          "Confección de minutas y seguimiento de proyectos internos"
+        ]
+      },
+      {
+        "company": "Banco Provincia de Buenos Aires",
+        "position": "Programador Frontend",
+        "startDate": "May 2021",
+        "endDate": "Ago 2022",
+        "location": "Buenos Aires, Argentina",
+        "summary": "Participación en el desarrollo de soluciones web para el sector bancario.",
+        "highlights": [
+          "Desarrollo de portal de noticias con React",
+          "Implementación de CMS institucional utilizando Angular",
+          "Relevamiento y análisis de requerimientos junto a áreas de negocio"
+        ]
+      }
+    ],
+    "en": [
+      {
+        "company": "FIUBA",
+        "position": "Ad honorem assistant",
+        "startDate": "Mar 2024",
+        "endDate": "Jun 2025",
+        "location": "Buenos Aires, Argentina",
+        "summary": "Teaching collaboration in the subject \"Computer Organization\" of the Computer Engineering degree.",
+        "highlights": [
+          "Correction of practical work",
+          "Contents: binary representation, x86 microarchitecture, Assembly and caching"
+        ]
+      },
+      {
+        "company": "Centro Argentino de Ingenieros (CAI)",
+        "position": "Executive Secretary of CEPSI and NGL",
+        "startDate": "May 2024",
+        "endDate": "Dec 2024",
+        "location": "Buenos Aires, Argentina",
+        "summary": "Internship in administrative role within management and technical committees.",
+        "highlights": [
+          "Management of administrative tasks",
+          "Meeting coordination",
+          "Preparation of minutes and monitoring of internal projects"
+        ]
+      },
+      {
+        "company": "Banco Provincia de Buenos Aires",
+        "position": "Frontend Programmer",
+        "startDate": "May 2021",
+        "endDate": "Aug 2022",
+        "location": "Buenos Aires, Argentina",
+        "summary": "Participation in the development of web solutions for the banking sector.",
+        "highlights": [
+          "News portal development with React",
+          "Institutional CMS implementation using Angular",
+          "Survey and analysis of requirements together with business areas"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "es": [
+      {
+        "institution": "Facultad de Ingeniería, Universidad de Buenos Aires (FIUBA)",
+        "area": "Ingeniería en Informática",
+        "degree": "Carrera de grado",
+        "startDate": "Ene 2019",
+        "endDate": "presente",
+        "location": "Buenos Aires, Argentina",
+        "summary": "Estudiante avanzado de Ingeniería en Informática.",
+        "highlights": [
+          "195 de 226 créditos aprobados (86% de la carrera)",
+          "Promedio general: 7,74"
+        ]
+      },
+      {
+        "institution": "Universitat Politècnica de València (UPV)",
+        "area": "Ingeniería en Informática",
+        "degree": "Intercambio académico",
+        "startDate": "Feb 2025",
+        "endDate": "Jul 2025",
+        "location": "Valencia, España",
+        "summary": "Intercambio académico con la carrera de grado en Ingeniería en Informática y con el Máster Universitario en Ciberseguridad y Ciberinteligencia (MUCC).",
+        "highlights": [
+          "Computación paralela",
+          "Concurrencia y sistemas distribuidos",
+          "Informática forense y análisis de malware (MUCC)",
+          "Pentesting y hacking ético (MUCC)",
+          "Sistemas basados en Deep Learning para la Industria"
+        ]
+      },
+      {
+        "institution": "Colegio Nacional de Buenos Aires",
+        "area": "Bachiller",
+        "degree": "Educación secundaria",
+        "startDate": "Ene 2014",
+        "endDate": "Dec 2018",
+        "location": "Buenos Aires, Argentina",
+        "summary": null,
+        "highlights": []
+      }
+    ],
+    "en": [
+      {
+        "institution": "Facultad de Ingeniería, Universidad de Buenos Aires (FIUBA)",
+        "area": "Computer Engineering",
+        "degree": "degree course",
+        "startDate": "Jan 2019",
+        "endDate": "present",
+        "location": "Buenos Aires, Argentina",
+        "summary": "Advanced Computer Engineering student.",
+        "highlights": [
+          "195 of 226 credits approved (86% of the degree)",
+          "General average: 7.74"
+        ]
+      },
+      {
+        "institution": "Universitat Politècnica de València (UPV)",
+        "area": "Computer Engineering",
+        "degree": "academic exchange",
+        "startDate": "Feb 2025",
+        "endDate": "Jul 2025",
+        "location": "Valencia, España",
+        "summary": "Academic exchange with the degree program in Computer Engineering and with the Master's Degree in Cybersecurity and Cyberintelligence (MUCC).",
+        "highlights": [
+          "Parallel computing",
+          "Concurrency and distributed systems",
+          "Computer Forensics and Malware Analysis (MUCC)",
+          "Pentesting and ethical hacking (MUCC)",
+          "Systems based on Deep Learning for Industry"
+        ]
+      },
+      {
+        "institution": "Colegio Nacional de Buenos Aires",
+        "area": "Bachelor",
+        "degree": "Secondary education",
+        "startDate": "Jan 2014",
+        "endDate": "Dec 2018",
+        "location": "Buenos Aires, Argentina",
+        "summary": null,
+        "highlights": []
+      }
+    ]
+  },
+  "certifications": {
+    "es": [
+      {
+        "name": "Qiskit Fall Fest Mentor",
+        "issuer": "IBM",
+        "url": "https://www.credly.com/badges/dcd3a2b6-df98-431b-8140-3c07b12879f2",
+        "summary": "Organizador de las primeras jornadas Qiskit Fall Fest en FIUBA.",
+        "highlights": [
+          "Difusión y contacto con sponsors",
+          "Organización del evento Kickoff y Hackathon"
+        ]
+      },
+      {
+        "name": "Data Classification and Summarization Using IBM Granite",
+        "issuer": "IBM",
+        "url": "https://www.credly.com/badges/c2c46184-e493-417c-bf6e-61c9c393b443",
+        "summary": "Curso de IBM sobre clasificación y resumen de datos utilizando IBM Granite.",
+        "highlights": [
+          "Técnicas de preprocesamiento de datos",
+          "Modelos de clasificación y resumen",
+          "Implementación práctica con IBM Granite"
+        ]
+      }
+    ],
+    "en": [
+      {
+        "name": "Qiskit Fall Fest Mentor",
+        "issuer": "IBM",
+        "url": "https://www.credly.com/badges/dcd3a2b6-df98-431b-8140-3c07b12879f2",
+        "summary": "Organizer of the first Qiskit Fall Fest days at FIUBA.",
+        "highlights": [
+          "Dissemination and contact with sponsors",
+          "Organization of the Kickoff and Hackathon event"
+        ]
+      },
+      {
+        "name": "Data Classification and Summarization Using IBM Granite",
+        "issuer": "IBM",
+        "url": "https://www.credly.com/badges/c2c46184-e493-417c-bf6e-61c9c393b443",
+        "summary": "IBM course on data classification and summarization using IBM Granite.",
+        "highlights": [
+          "Data preprocessing techniques",
+          "Classification and summary models",
+          "Practical implementation with IBM Granite"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "es": [
+      {
+        "name": "Agentes Autónomos de Prevención",
+        "url": "https://github.com/tin-gprieto/taller-rust",
+        "image": "/images/project-drones.jpg",
+        "summary": "Trabajo grupal final para la materia \"Taller de Programación\" que consiste en el desarrollo de un sistema de seguridad urbana con drones y cámaras que detectan y resuelven incidentes mediante mensajería asincrónica y visión artificial.",
+        "highlights": [
+          "Desarrollado en Rust para ambientes Unix y Linux",
+          "Implementación propia del protocolo MQTT 5.0 con QoS 1",
+          "Coordinación de drones y cámaras mediante arquitectura Pub/Sub",
+          "Detección de incidentes con Microsoft Azure AI Vision",
+          "Gestión de concurrencia mediante hilos y threadpools"
+        ]
+      },
+      {
+        "name": "Toolbox para C",
+        "url": "https://github.com/tin-gprieto/c_toolbox",
+        "image": "/images/project-toolbox.jpg",
+        "summary": "Colección de herramientas personales en C para la creación de interfaces de terminal, estructuras de datos y testeo unitario.",
+        "highlights": [
+          "Interfaz de terminal interactiva con colores ANSI",
+          "Implementación de TDAs como Listas, Colas y Hash",
+          "Gestión de componentes mediante memoria dinámica",
+          "Funciones auxiliares para agilizar el testeo unitario",
+          "Organización modular en Interfaz, TDAs y Tools"
+        ]
+      },
+      {
+        "name": "Darkness Awesome Theme",
+        "url": "https://github.com/tin-gprieto/awesome",
+        "image": "/images/project-awesome.jpg",
+        "summary": "Tema personalizado para el gestor de ventanas Awesome WM para Linux, enfocado en una estética oscura e integración de widgets informativos.",
+        "highlights": [
+          "Configuración de entorno de escritorio escrita en Lua",
+          "Widgets de batería, temperatura y Spotify integrados",
+          "Personalización estética de fondos, íconos y resolución"
+        ]
+      }
+    ],
+    "en": [
+      {
+        "name": "Autonomous Prevention Agents",
+        "url": "https://github.com/tin-gprieto/taller-rust",
+        "image": "/images/project-drones.jpg",
+        "summary": "Final group work for the subject \"Programming Workshop\" which consists of the development of an urban security system with drones and cameras that detect and resolve incidents through asynchronous messaging and artificial vision.",
+        "highlights": [
+          "Developed in Rust for Unix and Linux environments",
+          "Own implementation of the MQTT 5.0 protocol with QoS 1",
+          "Coordination of drones and cameras through Pub/Sub architecture",
+          "Incident detection with Microsoft Azure AI Vision",
+          "Concurrency management through threads and threadpools"
+        ]
+      },
+      {
+        "name": "Toolbox for C",
+        "url": "https://github.com/tin-gprieto/c_toolbox",
+        "image": "/images/project-toolbox.jpg",
+        "summary": "Collection of personal tools in C for creating terminal interfaces, data structures and unit testing.",
+        "highlights": [
+          "Interactive terminal interface with ANSI colors",
+          "Implementation of TDAs such as Lists, Queues and Hashes",
+          "Component management through dynamic memory",
+          "Auxiliary functions to speed up unit testing",
+          "Modular organization in Interface, TDAs and Tools"
+        ]
+      },
+      {
+        "name": "Darkness Awesome Theme",
+        "url": "https://github.com/tin-gprieto/awesome",
+        "image": "/images/project-awesome.jpg",
+        "summary": "Custom theme for the Awesome WM window manager for Linux, focused on a dark aesthetic and integration of informative widgets.",
+        "highlights": [
+          "Desktop environment configuration written in Lua",
+          "Integrated battery, temperature and Spotify widgets",
+          "Aesthetic customization of backgrounds, icons and resolution"
+        ]
+      }
+    ]
+  },
+  "languages": {
+    "es": [
+      {
+        "language": "Español",
+        "level": "Nativo",
+        "percentage": 100
+      },
+      {
+        "language": "Inglés",
+        "level": "Intermedio",
+        "percentage": 65
+      }
+    ],
+    "en": [
+      {
+        "language": "Spanish",
+        "level": "Native",
+        "percentage": 100
+      },
+      {
+        "language": "English",
+        "level": "Intermediate",
+        "percentage": 65
+      }
+    ]
+  },
+  "skills": {
+    "es": {
+      "title": "Habilidades",
+      "technical": [
+        {
+          "label": "Lenguajes de programación",
+          "iconName": "Code",
+          "items": [
+            "C",
+            "Python",
+            "Rust",
+            "JavaScript",
+            "TypeScript",
+            "Java",
+            "Assembly",
+            "SQL",
+            "Bash (Shell Scripting)"
+          ]
+        },
+        {
+          "label": "Desarrollo web",
+          "iconName": "Globe",
+          "items": [
+            "HTML",
+            "CSS",
+            "SASS",
+            "React",
+            "Angular JS"
+          ]
+        },
+        {
+          "label": "Machine Learning y Deep Learning",
+          "iconName": "Brain",
+          "items": [
+            "PyTorch",
+            "TensorFlow",
+            "Scikit-learn",
+            "Keras"
+          ]
+        },
+        {
+          "label": "Herramientas de visualización de datos",
+          "iconName": "BarChart3",
+          "items": [
+            "Matplotlib",
+            "Seaborn",
+            "Plotly"
+          ]
+        },
+        {
+          "label": "Sistemas de gestión de bases de datos (SGBD)",
+          "iconName": "Database",
+          "items": [
+            "MongoDB",
+            "PostgreSQL",
+            "Pandas"
+          ]
+        },
+        {
+          "label": "Herramientas",
+          "iconName": "Wrench",
+          "items": [
+            "Docker",
+            "Linux",
+            "Git",
+            "Github",
+            "Makefile",
+            "Jupyter Notebooks"
+          ]
+        },
+        {
+          "label": "Ofimática",
+          "iconName": "FileSpreadsheet",
+          "items": [
+            "Excel (intermedio)",
+            "Sony Vegas",
+            "GIMP"
+          ]
+        }
+      ],
+      "soft": {
+        "label": "Habilidades Blandas",
+        "items": [
+          "Comunicación efectiva y trabajo en equipo",
+          "Pensamiento crítico y resolución de problemas",
+          "Organización y optimización de tareas",
+          "Adaptabilidad a nuevos desafíos"
+        ]
+      },
+      "languages": {
+        "label": "Idiomas",
+        "items": [
+          {
+            "language": "Español",
+            "level": "Nativo",
+            "percentage": 100
+          },
+          {
+            "language": "Inglés",
+            "level": "Intermedio",
+            "percentage": 65
+          }
+        ]
+      }
+    },
+    "en": {
+      "title": "Skills",
+      "technical": [
+        {
+          "label": "Programming languages",
+          "iconName": "Code",
+          "items": [
+            "C",
+            "Python",
+            "Rust",
+            "JavaScript",
+            "TypeScript",
+            "Java",
+            "Assembly",
+            "SQL",
+            "Bash (Shell Scripting)"
+          ]
+        },
+        {
+          "label": "Web development",
+          "iconName": "Globe",
+          "items": [
+            "HTML",
+            "CSS",
+            "SASS",
+            "React",
+            "Angular JS"
+          ]
+        },
+        {
+          "label": "Machine Learning and Deep Learning",
+          "iconName": "Brain",
+          "items": [
+            "PyTorch",
+            "TensorFlow",
+            "Scikit-learn",
+            "Keras"
+          ]
+        },
+        {
+          "label": "Data visualization tools",
+          "iconName": "BarChart3",
+          "items": [
+            "Matplotlib",
+            "Seaborn",
+            "Plotly"
+          ]
+        },
+        {
+          "label": "Database management systems (DBMS)",
+          "iconName": "Database",
+          "items": [
+            "MongoDB",
+            "PostgreSQL",
+            "Pandas"
+          ]
+        },
+        {
+          "label": "Tools",
+          "iconName": "Wrench",
+          "items": [
+            "Docker",
+            "Linux",
+            "Git",
+            "Github",
+            "Makefile",
+            "Jupyter Notebooks"
+          ]
+        },
+        {
+          "label": "Office automation",
+          "iconName": "FileSpreadsheet",
+          "items": [
+            "Excel (intermediate)",
+            "Sony Vegas",
+            "GIMP"
+          ]
+        }
+      ],
+      "soft": {
+        "label": "Soft Skills",
+        "items": [
+          "Effective communication and teamwork",
+          "Critical thinking and problem solving",
+          "Organization and optimization of tasks",
+          "Adaptability to new challenges"
+        ]
+      },
+      "languages": {
+        "label": "Languages",
+        "items": [
+          {
+            "language": "Spanish",
+            "level": "Native",
+            "percentage": 100
+          },
+          {
+            "language": "English",
+            "level": "Intermediate",
+            "percentage": 65
+          }
+        ]
+      }
+    }
+  },
+  "translations": {
+    "contact": {
+      "es": {
+        "title": "Contacto",
+        "description": "¿Tienes alguna pregunta o propuesta? No dudes en contactarme.",
+        "nameLabel": "Nombre",
+        "namePlaceholder": "Tu nombre",
+        "emailLabel": "Email",
+        "emailPlaceholder": "tu@email.com",
+        "subjectLabel": "Asunto",
+        "subjectPlaceholder": "Asunto del mensaje",
+        "messageLabel": "Mensaje",
+        "messagePlaceholder": "Escribe tu mensaje aquí...",
+        "send": "Enviar mensaje",
+        "sending": "Enviando...",
+        "successTitle": "Mensaje enviado",
+        "successMessage": "Gracias por contactarme. Te responderé lo antes posible.",
+        "errorTitle": "Error",
+        "errorMessage": "Hubo un problema al enviar el mensaje. Intenta nuevamente."
+      },
+      "en": {
+        "title": "Contact",
+        "description": "Have any questions or proposals? Feel free to contact me.",
+        "nameLabel": "Name",
+        "namePlaceholder": "Your name",
+        "emailLabel": "Email",
+        "emailPlaceholder": "you@email.com",
+        "subjectLabel": "Subject",
+        "subjectPlaceholder": "Message subject",
+        "messageLabel": "Message",
+        "messagePlaceholder": "Write your message here...",
+        "send": "Send message",
+        "sending": "Sending...",
+        "successTitle": "Message sent",
+        "successMessage": "Thanks for reaching out. I will reply as soon as possible.",
+        "errorTitle": "Error",
+        "errorMessage": "There was a problem sending the message. Please try again."
+      }
+    },
+    "navbar": {
+      "es": {
+        "translate": "English",
+        "download": "Descargar CV"
+      },
+      "en": {
+        "translate": "Español",
+        "download": "Download CV"
+      }
+    }
+  },
+  "sectionTitles": {
+    "experience": {
+      "es": "Experiencia Profesional",
+      "en": "Professional Experience"
+    },
+    "education": {
+      "es": "Educación",
+      "en": "Education"
+    },
+    "skills": {
+      "es": "Habilidades",
+      "en": "Skills"
+    },
+    "projects": {
+      "es": "Proyectos",
+      "en": "Projects"
+    },
+    "certifications": {
+      "es": "Certificaciones",
+      "en": "Certifications"
+    },
+    "languages": {
+      "es": "Idiomas",
+      "en": "Languages"
+    },
+    "contact": {
+      "es": "Contacto",
+      "en": "Contact"
+    }
+  }
+}

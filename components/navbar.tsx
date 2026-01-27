@@ -2,22 +2,14 @@
 
 import { useState } from "react"
 import { Languages, Download, Menu, X } from "lucide-react"
+import { cvConfig } from "@/lib/config"
 
 interface NavbarProps {
   lang: "es" | "en"
   onToggleLang: () => void
 }
 
-const translations = {
-  es: {
-    translate: "English",
-    download: "Descargar CV",
-  },
-  en: {
-    translate: "Español",
-    download: "Download CV",
-  },
-}
+const translations = cvConfig.translations.navbar
 
 export function Navbar({ lang, onToggleLang }: NavbarProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -25,8 +17,8 @@ export function Navbar({ lang, onToggleLang }: NavbarProps) {
 
   const handleDownload = () => {
     const link = document.createElement("a")
-    link.href = "/cv.yaml"
-    link.download = "Martin_Gonzalez_Prieto_CV.yaml"
+    link.href = "/config/rendercv_output/Martín_González_Prieto_CV.pdf"
+    link.download = "Martín_González_Prieto_CV.pdf"
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -36,7 +28,7 @@ export function Navbar({ lang, onToggleLang }: NavbarProps) {
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex max-w-4xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
         <div className="font-semibold text-foreground">
-          <span className="text-primary">MG</span>P
+          <span className="text-primary">&lt;/MG</span>P<span className="text-primary">&gt;</span>
         </div>
 
         {/* Desktop menu */}

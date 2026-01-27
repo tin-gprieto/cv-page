@@ -1,0 +1,195 @@
+cv:
+  name: Martin Gonzalez Prieto
+  headline: Advanced Computer Engineering student
+  location: Buenos Aires, Argentina
+  email: mgonzalezp@fi.uba.ar
+  phone: +54 11 2235-8723
+  photo: null
+  website: null
+  social_networks:
+    - network: LinkedIn
+      username: mgonpri
+    - network: GitHub
+      username: tin-gprieto
+  sections:
+    education:
+      - institution: Facultad de Ingeniería, Universidad de Buenos Aires (FIUBA)
+        area: Computer Engineering
+        degree: degree course
+        start_date: 2019-01
+        end_date: present
+        location: Buenos Aires, Argentina
+        summary: Advanced Computer Engineering student.
+        highlights:
+          - 195 of 226 credits approved (86% of the degree)
+          - "General average: 7.74"
+      - institution: Universitat Politècnica de València (UPV)
+        area: Computer Engineering
+        degree: academic exchange
+        start_date: 2025-02
+        end_date: 2025-07
+        location: Valencia, España
+        summary: Academic exchange with the degree program in Computer Engineering and with the Master's Degree in Cybersecurity and Cyberintelligence (MUCC).
+        highlights:
+          - Parallel computing
+          - Concurrency and distributed systems
+          - Computer Forensics and Malware Analysis (MUCC)
+          - Pentesting and ethical hacking (MUCC)
+          - Systems based on Deep Learning for Industry
+      - institution: Colegio Nacional de Buenos Aires
+        area: Bachelor
+        degree: Secondary education
+        start_date: 2014-01
+        end_date: 2018-12
+        location: Buenos Aires, Argentina
+        summary: null
+        highlights: null
+    experience:
+      - company: FIUBA
+        position: Ad honorem assistant
+        start_date: 2024-03
+        end_date: 2025-06
+        location: Buenos Aires, Argentina
+        summary: Teaching collaboration in the subject "Computer Organization" of the Computer Engineering degree.
+        highlights:
+          - Correction of practical work
+          - "Contents: binary representation, x86 microarchitecture, Assembly and caching"
+      - company: Centro Argentino de Ingenieros (CAI)
+        position: Executive Secretary of CEPSI and NGL
+        start_date: 2024-05
+        end_date: 2024-12
+        location: Buenos Aires, Argentina
+        summary: Internship in administrative role within management and technical committees.
+        highlights:
+          - Management of administrative tasks
+          - Meeting coordination
+          - Preparation of minutes and monitoring of internal projects
+      - company: Banco Provincia de Buenos Aires
+        position: Frontend Programmer
+        start_date: 2021-05
+        end_date: 2022-08
+        location: Buenos Aires, Argentina
+        summary: Participation in the development of web solutions for the banking sector.
+        highlights:
+          - News portal development with React
+          - Institutional CMS implementation using Angular
+          - Survey and analysis of requirements together with business areas
+    languages:
+      - bullet: Spanish — Native
+      - bullet: English — Intermediate
+    technical_skills:
+      - label: Programming languages
+        details: C, Python, Rust, JavaScript, TypeScript, Java, Assembly, SQL, Bash (Shell Scripting)
+      - label: Web development
+        details: HTML, CSS, SASS, React, Angular JS
+      - label: Machine Learning and Deep Learning
+        details: PyTorch, TensorFlow, Scikit-learn, Keras
+      - label: Data visualization tools
+        details: Matplotlib, Seaborn, Plotly
+      - label: Database management systems (DBMS)
+        details: MongoDB, PostgreSQL, Pandas
+      - label: Tools
+        details: Docker, Linux, Git, Github, Makefile, Jupyter Notebooks
+      - label: Office automation
+        details: Excel (intermedio), Sony Vegas, GIMP
+    soft_skills:
+      - bullet: Effective communication and teamwork
+      - bullet: Critical thinking and problem solving
+      - bullet: Organization and optimization of tasks
+      - bullet: Adaptability to new challenges
+    certifications:
+      - name: "[Qiskit Fall Fest Mentor (IBM)](https://www.credly.com/badges/dcd3a2b6-df98-431b-8140-3c07b12879f2)"
+        summary: Organizer of the first Qiskit Fall Fest days at FIUBA.
+        highlights:
+          - Dissemination and contact with sponsors
+          - Organization of the Kickoff and Hackathon event
+      - name: "[Data Classification and Summarization Using IBM Granite (IBM)](https://www.credly.com/badges/c2c46184-e493-417c-bf6e-61c9c393b443)"
+        summary: IBM course on data classification and summarization using IBM Granite.
+        highlights:
+          - Data preprocessing techniques
+          - Classification and summary models
+          - Practical implementation with IBM Granite
+    proyects:
+      - name: "[Autonomous Prevention Agents](https://github.com/tin-gprieto/taller-rust)"
+        summary: Final group work for the subject "Programming Workshop" which consists of the development of an urban security system with drones and cameras that detect and resolve incidents through asynchronous messaging and artificial vision.
+        highlights:
+          - Developed in Rust for Unix and Linux environments.
+          - Own implementation of the MQTT 5.0 protocol with QoS 1.
+          - Coordination of drones and cameras through Pub/Sub architecture.
+          - Incident detection with Microsoft Azure AI Vision.
+          - Concurrency management through threads and threadpools.
+      - name: "[Toolbox for C](https://github.com/tin-gprieto/c_toolbox)"
+        summary: Collection of personal tools in C for creating terminal interfaces, data structures and unit testing.
+        highlights:
+          - Interactive terminal interface with ANSI colors.
+          - Implementation of TDAs such as Lists, Queues and Hashes.
+          - Component management through dynamic memory.
+          - Auxiliary functions to speed up unit testing.
+          - Modular organization in Interface, TDAs and Tools.
+      - name: "[Darkness Awesome Theme](https://github.com/tin-gprieto/awesome)"
+        summary: Custom theme for the Awesome WM window manager for Linux, focused on a dark aesthetic and integration of informative widgets.
+        highlights:
+          - Desktop environment configuration written in Lua.
+          - Integrated battery, temperature and Spotify widgets.
+          - Aesthetic customization of backgrounds, icons and resolution.
+design:
+  theme: engineeringclassic
+  colors:
+    body: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    headline: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 79, 144)
+    footer: rgb(0, 0, 0)
+    top_note: rgb(128, 128, 128)
+locale:
+  language: english
+  last_updated: "Last updated:"
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  month_abbreviations:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+  month_names:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+settings:
+  current_date: "2026-01-26"
+  render_command:
+    design: null
+    locale: null
+    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []
