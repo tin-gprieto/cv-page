@@ -25,8 +25,8 @@ export function Navbar({ lang, onToggleLang }: NavbarProps) {
 
   const handleDownload = () => {
     const link = document.createElement("a")
-    link.href = "/cv.yaml"
-    link.download = "Martin_Gonzalez_Prieto_CV.yaml"
+    link.href = "/config/rendercv_output/Martín_González_Prieto_CV.pdf"
+    link.download = "Martín_González_Prieto_CV.pdf"
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
