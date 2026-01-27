@@ -19,8 +19,8 @@ export function Navbar({ lang, onToggleLang }: NavbarProps) {
 
   const handleDownload = () => {
     const link = document.createElement("a")
-    link.href = "/config/rendercv_output/Martín_González_Prieto_CV.pdf"
-    link.download = "Martín_González_Prieto_CV.pdf"
+    link.href = lang === "es" ? "/config/rendercv_output/Martín_González_Prieto_CV.pdf" : "/config/rendercv_output/Martin_Gonzalez_Prieto_CV.pdf"
+    link.download = lang === "es" ? "Martín_González_Prieto_CV.pdf" : "Martin_Gonzalez_Prieto_CV_EN.pdf"
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
