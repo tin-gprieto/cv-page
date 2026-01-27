@@ -25,10 +25,10 @@ export default function CVPage() {
   return (
     <>
       <Navbar lang={lang} onToggleLang={toggleLang} />
-      <main className="min-h-screen bg-background pt-16">
-        <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+      <main className="min-h-screen bg-background pt-14 sm:pt-16">
+        <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
           <Header lang={lang} />
-          <div className="mt-12 space-y-12">
+          <div className="mt-8 space-y-8 sm:mt-12 sm:space-y-12">
             <Education lang={lang} />
             <Experience lang={lang} />
             <Skills lang={lang} />
@@ -36,8 +36,8 @@ export default function CVPage() {
             <Certifications lang={lang} />
             <Contact lang={lang} />
           </div>
-          <footer className="mt-16 border-t border-border pt-8 text-center">
-            <p className="text-sm text-muted-foreground">{footerText[lang]}</p>
+          <footer className="mt-12 border-t border-border pt-6 text-center sm:mt-16 sm:pt-8">
+            <p className="text-xs sm:text-sm text-muted-foreground">{footerText[lang]}</p>
           </footer>
         </div>
       </main>

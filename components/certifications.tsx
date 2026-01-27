@@ -1,5 +1,6 @@
 import { Award, ExternalLink } from "lucide-react"
 import { SectionTitle } from "./section-title"
+import { AnimateOnScroll } from "./animate-on-scroll"
 
 interface CertificationsProps {
   lang: "es" | "en"
@@ -65,37 +66,36 @@ export function Certifications({ lang }: CertificationsProps) {
   return (
     <section>
       <SectionTitle icon={Award} title={sectionTitle[lang]} />
-      <div className="mt-6 grid gap-4 sm:grid-cols-2">
+      <div className="mt-6 grid gap-3 grid-cols-1 sm:grid-cols-2 sm:gap-4">
         {certifications.map((cert, index) => (
-          <div
-            key={index}
-            className="group rounded-lg border border-border bg-card p-5 transition-colors hover:border-primary/50"
-          >
-            <div className="mb-3 flex items-start justify-between gap-2">
-              <div>
-                <h3 className="font-semibold text-foreground">{cert.name}</h3>
-                <p className="text-sm text-primary">{cert.issuer}</p>
+          <AnimateOnScroll key={index} animation="fade-right" delay={index * 100}>
+            <div className="group h-full rounded-lg border border-border bg-card p-4 transition-all hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 sm:p-5">
+              <div className="mb-3 flex items-start justify-between gap-2">
+                <div className="min-w-0 flex-1">
+                  <h3 className="font-semibold text-foreground text-sm sm:text-base leading-tight">{cert.name}</h3>
+                  <p className="text-xs sm:text-sm text-primary mt-0.5">{cert.issuer}</p>
+                </div>
+                <a
+                  href={cert.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-shrink-0 rounded-md p-2 text-muted-foreground transition-all hover:bg-primary hover:text-primary-foreground hover:scale-110"
+                  aria-label={`Ver certificación ${cert.name}`}
+                >
+                  <ExternalLink className="h-4 w-4" />
+                </a>
               </div>
-              <a
-                href={cert.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex-shrink-0 rounded-md p-2 text-muted-foreground transition-colors hover:bg-secondary hover:text-primary"
-                aria-label={`Ver certificación ${cert.name}`}
-              >
-                <ExternalLink className="h-4 w-4" />
-              </a>
+              <p className="mb-3 text-xs sm:text-sm text-muted-foreground leading-relaxed">{cert.summary}</p>
+              <ul className="space-y-1">
+                {cert.highlights.map((highlight, idx) => (
+                  <li key={idx} className="flex items-start gap-2 text-xs text-muted-foreground">
+                    <span className="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-primary transition-transform group-hover:scale-150" />
+                    {highlight}
+                  </li>
+                ))}
+              </ul>
             </div>
-            <p className="mb-3 text-sm text-muted-foreground">{cert.summary}</p>
-            <ul className="space-y-1">
-              {cert.highlights.map((highlight, idx) => (
-                <li key={idx} className="flex items-start gap-2 text-xs text-muted-foreground">
-                  <span className="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-primary" />
-                  {highlight}
-                </li>
-              ))}
-            </ul>
-          </div>
+          </AnimateOnScroll>
         ))}
       </div>
     </section>
