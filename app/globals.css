@@ -133,8 +133,8 @@
 }
 
 @keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 0 0 oklch(0.55 0.18 25 / 0.4); }
-  50% { box-shadow: 0 0 20px 4px oklch(0.55 0.18 25 / 0.2); }
+  0%, 100% { box-shadow: 0 0 0 0 oklch(62.419% 0.25615 29.223 / 0.664); }
+  50% { box-shadow: 0 0 20px 4px oklch(53.185% 0.21666 29.059 / 0.651); }
 }
 
 @keyframes shimmer {
@@ -159,7 +159,7 @@
   background: linear-gradient(
     90deg,
     transparent 0%,
-    oklch(0.55 0.18 25 / 0.1) 50%,
+    oklch(62.832% 0.25728 29.173 / 0.959) 50%,
     transparent 100%
   );
   background-size: 200% 100%;
