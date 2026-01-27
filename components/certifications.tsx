@@ -1,0 +1,103 @@
+import { Award, ExternalLink } from "lucide-react"
+import { SectionTitle } from "./section-title"
+
+interface CertificationsProps {
+  lang: "es" | "en"
+}
+
+const certificationsData = {
+  es: [
+    {
+      name: "Qiskit Fall Fest Mentor",
+      issuer: "IBM",
+      url: "https://www.credly.com/badges/dcd3a2b6-df98-431b-8140-3c07b12879f2",
+      summary: "Organizador de las primeras jornadas Qiskit Fall Fest en FIUBA.",
+      highlights: [
+        "Difusión y contacto con sponsors",
+        "Organización del evento Kickoff y Hackathon",
+      ],
+    },
+    {
+      name: "Data Classification and Summarization Using IBM Granite",
+      issuer: "IBM",
+      url: "https://www.credly.com/badges/c2c46184-e493-417c-bf6e-61c9c393b443",
+      summary: "Curso de IBM sobre clasificación y resumen de datos utilizando IBM Granite.",
+      highlights: [
+        "Técnicas de preprocesamiento de datos",
+        "Modelos de clasificación y resumen",
+        "Implementación práctica con IBM Granite",
+      ],
+    },
+  ],
+  en: [
+    {
+      name: "Qiskit Fall Fest Mentor",
+      issuer: "IBM",
+      url: "https://www.credly.com/badges/dcd3a2b6-df98-431b-8140-3c07b12879f2",
+      summary: "Organizer of the first Qiskit Fall Fest sessions at FIUBA.",
+      highlights: [
+        "Outreach and sponsor contact",
+        "Organization of Kickoff and Hackathon events",
+      ],
+    },
+    {
+      name: "Data Classification and Summarization Using IBM Granite",
+      issuer: "IBM",
+      url: "https://www.credly.com/badges/c2c46184-e493-417c-bf6e-61c9c393b443",
+      summary: "IBM course on data classification and summarization using IBM Granite.",
+      highlights: [
+        "Data preprocessing techniques",
+        "Classification and summarization models",
+        "Practical implementation with IBM Granite",
+      ],
+    },
+  ],
+}
+
+const sectionTitle = {
+  es: "Certificaciones",
+  en: "Certifications",
+}
+
+export function Certifications({ lang }: CertificationsProps) {
+  const certifications = certificationsData[lang]
+
+  return (
+    <section>
+      <SectionTitle icon={Award} title={sectionTitle[lang]} />
+      <div className="mt-6 grid gap-4 sm:grid-cols-2">
+        {certifications.map((cert, index) => (
+          <div
+            key={index}
+            className="group rounded-lg border border-border bg-card p-5 transition-colors hover:border-primary/50"
+          >
+            <div className="mb-3 flex items-start justify-between gap-2">
+              <div>
+                <h3 className="font-semibold text-foreground">{cert.name}</h3>
+                <p className="text-sm text-primary">{cert.issuer}</p>
+              </div>
+              <a
+                href={cert.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-shrink-0 rounded-md p-2 text-muted-foreground transition-colors hover:bg-secondary hover:text-primary"
+                aria-label={`Ver certificación ${cert.name}`}
+              >
+                <ExternalLink className="h-4 w-4" />
+              </a>
+            </div>
+            <p className="mb-3 text-sm text-muted-foreground">{cert.summary}</p>
+            <ul className="space-y-1">
+              {cert.highlights.map((highlight, idx) => (
+                <li key={idx} className="flex items-start gap-2 text-xs text-muted-foreground">
+                  <span className="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-primary" />
+                  {highlight}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </section>
+  )
+}

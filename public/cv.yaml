@@ -1,0 +1,315 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: Martín González Prieto
+  headline: Estudiante avanzado de Ingeniería en Informática
+  location: Buenos Aires, Argentina
+  email: mgonzalezp@fi.uba.ar
+  phone: +54 11 2235-8723
+  photo:
+  website:
+  social_networks:
+    - network: LinkedIn
+      username: mgonpri
+    - network: GitHub
+      username: tin-gprieto
+
+  sections:
+    education:
+
+      - institution: Facultad de Ingeniería, Universidad de Buenos Aires (FIUBA)
+        area: Ingeniería en Informática
+        degree: Carrera de grado
+        start_date: 2019-01
+        end_date: present
+        location: Buenos Aires, Argentina
+        summary: Estudiante avanzado de Ingeniería en Informática.
+        highlights:
+          - 195 de 226 créditos aprobados (86% de la carrera)
+          - "Promedio general: 7,74"
+      
+      - institution: Universitat Politècnica de València (UPV)
+        area: Ingeniería en Informática
+        degree: Máster
+        start_date: 2025-02
+        end_date: 2025-07
+        location: Valencia, España
+        summary: Intercambio académico con la carrera de grado en Ingeniería en Informática y con el Máster Universitario en Ciberseguridad y Ciberinteligencia (MUCC).
+        highlights:
+          - Computación paralela 
+          - Concurrencia y sistemas distribuidos
+          - Informática forense y análisis de malware (MUCC)  
+          - Pentesting y hacking ético (MUCC) 
+          - Sistemas basados en Deep Learning para la Industria
+
+      - institution: Colegio Nacional de Buenos Aires
+        area: Bachiller
+        degree: Educación secundaria
+        start_date: 2014-01
+        end_date: 2018-12
+        location: Buenos Aires, Argentina
+        summary:
+        highlights:
+
+    experience:
+      - company: FIUBA
+        position: Ayudante ad honorem
+        start_date: 2024-03
+        end_date: 2025-06
+        location: Buenos Aires, Argentina
+        summary:  Colaboración docente en la materia “Organización del Computador" de la carrera de Ingeniería en Informática.
+        highlights:
+          - Corrección de trabajos prácticos
+          - "Contenidos: representación binaria, microarquitectura x86, Assembly y caching"
+
+      - company: Centro Argentino de Ingenieros (CAI)
+        position: Secretario Ejecutivo de CEPSI y NGL
+        start_date: 2024-05
+        end_date: 2024-12
+        location: Buenos Aires, Argentina
+        summary: Pasantía en rol administrativo dentro de comisiones directivas y técnicas.
+        highlights:
+          - Gestión de tareas administrativas
+          - Coordinación de reuniones
+          - Confección de minutas y seguimiento de proyectos internos
+
+      - company: Banco Provincia de Buenos Aires
+        position: Programador Frontend
+        start_date: 2021-05
+        end_date: 2022-08
+        location: Buenos Aires, Argentina
+        summary: Participación en el desarrollo de soluciones web para el sector bancario.
+        highlights:
+          - Desarrollo de portal de noticias con React
+          - Implementación de CMS institucional utilizando Angular
+          - Relevamiento y análisis de requerimientos junto a áreas de negocio
+
+
+
+    languages:
+      - bullet: Español — Nativo
+      - bullet: Inglés — Intermedio
+    
+    technical_skills:
+      - label: Lenguajes de programación
+        details: C, Python, Rust, JavaScript, TypeScript, Java, Assembly, SQL, Bash (Shell Scripting)
+      - label: Desarrollo web
+        details: HTML, CSS, SASS, React, Angular JS
+      - label: Machine Learning y Deep Learning
+        details: PyTorch, TensorFlow, Scikit-learn, Keras
+      - label: Herramientas de visualización de datos
+        details: Matplotlib, Seaborn, Plotly
+      - label: Sistemas de gestión de bases de datos (SGBD)
+        details: MongoDB, PostgreSQL, Pandas
+      - label: Herramientas
+        details: Docker, Linux, Git, Github, Makefile, Jupyter Notebooks
+      - label: Ofimática
+        details: Excel (intermedio), Sony Vegas, GIMP
+
+    soft_skills:
+      - bullet: Comunicación efectiva y trabajo en equipo
+      - bullet: Pensamiento crítico y resolución de problemas
+      - bullet: Organización y optimización de tareas
+      - bullet: Adaptabilidad a nuevos desafíos
+
+    certifications:
+      - name: '[Qiskit Fall Fest Mentor (IBM)](https://www.credly.com/badges/dcd3a2b6-df98-431b-8140-3c07b12879f2)'
+        summary: Organizador de las primeras jornadas Qiskit Fall Fest en FIUBA.
+        highlights:
+          - Difusión y contacto con sponsors
+          - Organización del evento Kickoff y Hackathon
+      - name: '[Data Classification and Summarization Using IBM Granite (IBM)](https://www.credly.com/badges/c2c46184-e493-417c-bf6e-61c9c393b443)'
+        summary: Curso de IBM sobre clasificación y resumen de datos utilizando IBM Granite.
+        highlights:
+          - Técnicas de preprocesamiento de datos
+          - Modelos de clasificación y resumen
+          - Implementación práctica con IBM Granite
+    
+    proyects:
+      - name: '[Agentes Autónomos de Prevención](https://github.com/tin-gprieto/taller-rust)'
+        summary: Trabajo grupal final para la materia "Taller de Programación" que consiste en el desarrollo de un sistema de seguridad urbana con drones y cámaras que detectan y resuelven incidentes mediante mensajería asincrónica y visión artificial.
+        highlights:
+          - Desarrollado en Rust para ambientes Unix y Linux. 
+          - Implementación propia del protocolo MQTT 5.0 con QoS 1. 
+          - Coordinación de drones y cámaras mediante arquitectura Pub/Sub. 
+          - Detección de incidentes con Microsoft Azure AI Vision. 
+          - Gestión de concurrencia mediante hilos y threadpools.
+      - name: '[Toolbox para C](https://github.com/tin-gprieto/c_toolbox)'
+        summary: Colección de herramientas personales en C para la creación de interfaces de terminal, estructuras de datos y testeo unitario.
+        highlights:
+          - Interfaz de terminal interactiva con colores ANSI.
+          - Implementación de TDAs como Listas, Colas y Hash.
+          - Gestión de componentes mediante memoria dinámica.
+          - Funciones auxiliares para agilizar el testeo unitario.
+          - Organización modular en Interfaz, TDAs y Tools.
+      - name: '[Darkness Awesome Theme](https://github.com/tin-gprieto/awesome)'
+        summary: Tema personalizado para el gestor de ventanas Awesome WM para Linux, enfocado en una estética oscura e integración de widgets informativos.
+        highlights:
+          - Configuración de entorno de escritorio escrita en Lua.
+          - Widgets de batería, temperatura y Spotify integrados.
+          - Personalización estética de fondos, íconos y resolución.
+
+design:
+  theme: engineeringclassic
+  # page:
+  #    size: us-letter
+  #    top_margin: 0.7in
+  #    bottom_margin: 0.7in
+  #    left_margin: 0.7in
+  #    right_margin: 0.7in
+  #    show_footer: true
+  #    show_top_note: true
+  colors:
+    body: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    headline: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 79, 144)
+    footer: rgb(0, 0, 0)
+    top_note: rgb(128, 128, 128)
+  # typography:
+  #   line_spacing: 0.6em
+  #   alignment: justified
+  #   date_and_location_column_alignment: right
+  #   font_family:
+  #     body: Source Sans 3
+  #     name: Source Sans 3
+  #     headline: Source Sans 3
+  #     connections: Source Sans 3
+  #     section_titles: Source Sans 3
+  # links:
+  #   underline: false
+  #   show_external_link_icon: true
+  # header:
+  #   alignment: center
+  #   photo_width: 3.5cm
+  #   photo_position: left
+  #   photo_space_left: 0.4cm
+  #   photo_space_right: 0.4cm
+  #   space_below_name: 0.7cm
+  #   space_below_headline: 0.7cm
+  #   space_below_connections: 0.7cm
+  # connections:
+  #    phone_number_format: national
+  #    hyperlink: true
+  #    show_icons: true
+  #    display_urls_instead_of_usernames: false
+  #    separator: ''
+  #    space_between_connections: 0.5cm
+  # section_titles:
+  #  type: with_partial_line
+  #  line_thickness: 0.5pt
+  #  space_above: 0.5cm
+  #  space_below: 0.3cm
+  #  sections:
+  #    allow_page_break: true
+  #    space_between_regular_entries: 1.2em
+  #    space_between_text_based_entries: 0.3em
+  #    show_time_spans_in:
+  #      - experience
+  #  entries:
+  #    date_and_location_width: 4.15cm
+  #    side_space: 0.2cm
+  #    space_between_columns: 0.1cm
+  #    allow_page_break: false
+  #    short_second_row: true
+  #    summary:
+  #      space_above: 0cm
+  #      space_left: 0cm
+  #    highlights:
+  #      bullet: •
+  #      nested_bullet: •
+  #      space_left: 0.15cm
+  #      space_above: 0cm
+  #      space_between_items: 0cm
+  #      space_between_bullet_and_text: 0.5em
+  # templates:
+  #   footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+  #   top_note: '*LAST_UPDATED CURRENT_DATE*'
+  #   single_date: MONTH_ABBREVIATION YEAR
+  #   date_range: START_DATE – END_DATE
+  #   time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+  #   one_line_entry:
+  #     main_column: '**LABEL:** DETAILS'
+  #   education_entry:
+  #     main_column: |-
+  #       **INSTITUTION**, AREA
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     degree_column: '**DEGREE**'
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   normal_entry:
+  #     main_column: |-
+  #       **NAME**
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   experience_entry:
+  #     main_column: |-
+  #       **COMPANY**, POSITION
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   publication_entry:
+  #     main_column: |-
+  #       **TITLE**
+  #       SUMMARY
+  #       AUTHORS
+  #       URL (JOURNAL)
+  #     date_and_location_column: DATE
+locale:
+  language: spanish
+  last_updated: "Última actualización:"
+  month: mes
+  months: meses
+  year: año
+  years: años
+  present: presente
+  month_abbreviations:
+    - Ene
+    - Feb
+    - Mar
+    - Abr
+    - May
+    - Jun
+    - Jul
+    - Ago
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+  month_names:
+    - Enero
+    - Febrero
+    - Marzo
+    - Abril
+    - Mayo
+    - Junio
+    - Julio
+    - Agosto
+    - Septiembre
+    - Octubre
+    - Noviembre
+    - Diciembre
+settings:
+  current_date: '2026-01-26'
+  render_command:
+    design:
+    locale:
+    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []
