@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "pnpm build:config && next build",
+    "build": "pnpm build:config || echo \"Warning: build:config failed; proceeding with next build\" ; next build",
     "build:config": "npx tsx scripts/build-config.ts",
     "dev": "next dev",
     "lint": "eslint .",

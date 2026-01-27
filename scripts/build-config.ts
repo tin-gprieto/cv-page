@@ -223,7 +223,7 @@ function parseLanguageBullet(bullet: string): { language: string; level: string 
 
 function cleanHighlights(highlights?: string[]): string[] {
   if (!highlights) return []
-  return highlights.map(h => h.replace(/\.\s*$/, ""))
+  return highlights.map(h => h.replace(/[.]\s*$/, ""))
 }
 
 function getProjectImage(name: string): string {
