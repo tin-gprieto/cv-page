@@ -18,7 +18,7 @@ Estudiante avanzado de Ingeniería en Informática.
 
 
 
-## **Universitat Politècnica de València (UPV)**, Máster in Ingeniería en Informática -- Valencia, EspañaFeb 2025 – Jul 2025
+## **Universitat Politècnica de València (UPV)**, Intercambio académico in Ingeniería en Informática -- Valencia, EspañaFeb 2025 – Jul 2025
 
 Intercambio académico con la carrera de grado en Ingeniería en Informática y con el Máster Universitario en Ciberseguridad y Ciberinteligencia (MUCC).
 

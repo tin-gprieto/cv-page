@@ -119,7 +119,7 @@
 
 #education-entry(
   [
-    #strong[Universitat Politècnica de València (UPV)], Máster in Ingeniería en Informática -- Valencia, España
+    #strong[Universitat Politècnica de València (UPV)], Intercambio académico in Ingeniería en Informática -- Valencia, España
 
   ],
   [
