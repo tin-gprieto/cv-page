@@ -83,7 +83,7 @@ cv:
       - label: Web development
         details: HTML, CSS, SASS, React, Angular JS
       - label: Machine Learning and Deep Learning
-        details: PyTorch, TensorFlow, Scikit-learn, Keras
+        details: TensorFlow, Scikit-learn, Keras
       - label: Data visualization tools
         details: Matplotlib, Seaborn
       - label: Database management systems (DBMS)
@@ -132,6 +132,14 @@ cv:
           - Desktop environment configuration written in Lua.
           - Integrated battery, temperature and Spotify widgets.
           - Aesthetic customization of backgrounds, icons and resolution.
+      - name: "[TanGo - Tourism Management](https://github.com/tin-gprieto/gestion-tanGo-tripadvisor)"
+        summary: Final group work of the subject "Management of the Development of Computer Systems". Web platform, similar to TripAdvisor, to manage and visualize hotels, restaurants and tourist activities through microservices and AI assistance.
+        highlights:
+          - Full Stack architecture with Spring Boot and Next.js.
+          - NoSQL database using MongoDB 8.0.
+          - Docker containers for simplified deployment of services.
+          - Google Gemini AI and Google Maps integration.
+          - Image management using bucket storage in Supabase.
 design:
   theme: engineeringclassic
   colors:
@@ -178,7 +186,7 @@ locale:
     - November
     - December
 settings:
-  current_date: "2026-01-26"
+  current_date: "2026-01-27"
   render_command:
     design: null
     locale: null

@@ -273,6 +273,19 @@
           "Widgets de batería, temperatura y Spotify integrados",
           "Personalización estética de fondos, íconos y resolución"
         ]
+      },
+      {
+        "name": "TanGo - Gestión Turística",
+        "url": "https://github.com/tin-gprieto/gestion-tanGo-tripadvisor",
+        "image": "/images/project-tango.jpg",
+        "summary": "Trabajo grupal final de la materia \"Gestión del Desarrollo de Sistemas Informáticos\". Plataforma web, similar a TripAdvisor, para gestionar y visualizar hoteles, restaurantes y actividades turísticas mediante microservicios y asistencia de IA.",
+        "highlights": [
+          "Arquitectura Full Stack con Spring Boot y Next.js",
+          "Base de datos NoSQL utilizando MongoDB 8.0",
+          "Contenedores Docker para despliegue simplificado de servicios",
+          "Integración de Google Gemini AI y Google Maps",
+          "Gestión de imágenes mediante almacenamiento bucket en Supabase"
+        ]
       }
     ],
     "en": [
@@ -311,6 +324,19 @@
           "Desktop environment configuration written in Lua",
           "Integrated battery, temperature and Spotify widgets",
           "Aesthetic customization of backgrounds, icons and resolution"
+        ]
+      },
+      {
+        "name": "TanGo - Tourism Management",
+        "url": "https://github.com/tin-gprieto/gestion-tanGo-tripadvisor",
+        "image": "/images/project-tango.jpg",
+        "summary": "Final group work of the subject \"Management of the Development of Computer Systems\". Web platform, similar to TripAdvisor, to manage and visualize hotels, restaurants and tourist activities through microservices and AI assistance.",
+        "highlights": [
+          "Full Stack architecture with Spring Boot and Next.js",
+          "NoSQL database using MongoDB 8.0",
+          "Docker containers for simplified deployment of services",
+          "Google Gemini AI and Google Maps integration",
+          "Image management using bucket storage in Supabase"
         ]
       }
     ]
@@ -374,7 +400,6 @@
           "label": "Machine Learning y Deep Learning",
           "iconName": "Brain",
           "items": [
-            "PyTorch",
             "TensorFlow",
             "Scikit-learn",
             "Keras"
@@ -475,7 +500,6 @@
           "label": "Machine Learning and Deep Learning",
           "iconName": "Brain",
           "items": [
-            "PyTorch",
             "TensorFlow",
             "Scikit-learn",
             "Keras"
