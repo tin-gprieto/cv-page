@@ -16,7 +16,7 @@ export function Header({ lang }: HeaderProps) {
     <header className="text-center">
       <AnimateOnScroll animation="scale-up">
         <div className="mb-6">
-          <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-primary/10 text-primary animate-pulse-glow sm:h-24 sm:w-24">
+          <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-primary/10 text-primary border-3 border-primary sm:h-24 sm:w-24">
             <img src="/pp.jpg" alt="Profile Picture" className="rounded-full" />
           </div>
           <h1 className="text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl md:text-5xl">
