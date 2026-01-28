@@ -95,7 +95,7 @@ cv:
       - label: Desarrollo web
         details: HTML, CSS, SASS, React, Angular JS
       - label: Machine Learning y Deep Learning
-        details: PyTorch, TensorFlow, Scikit-learn, Keras
+        details: TensorFlow, Scikit-learn, Keras
       - label: Herramientas de visualización de datos
         details: Matplotlib, Seaborn
       - label: Sistemas de gestión de bases de datos (SGBD)
@@ -147,6 +147,14 @@ cv:
           - Configuración de entorno de escritorio escrita en Lua.
           - Widgets de batería, temperatura y Spotify integrados.
           - Personalización estética de fondos, íconos y resolución.
+      - name: '[TanGo - Gestión Turística](https://github.com/tin-gprieto/gestion-tanGo-tripadvisor)'
+        summary: Trabajo grupal final de la materia "Gestión del Desarrollo de Sistemas Informáticos". Plataforma web, similar a TripAdvisor, para gestionar y visualizar hoteles, restaurantes y actividades turísticas mediante microservicios y asistencia de IA.
+        highlights:
+          - Arquitectura Full Stack con Spring Boot y Next.js.
+          - Base de datos NoSQL utilizando MongoDB 8.0.
+          - Contenedores Docker para despliegue simplificado de servicios.
+          - Integración de Google Gemini AI y Google Maps.
+          - Gestión de imágenes mediante almacenamiento bucket en Supabase.
 
 design:
   theme: engineeringclassic
@@ -298,7 +306,7 @@ locale:
     - Noviembre
     - Diciembre
 settings:
-  current_date: '2026-01-26'
+  current_date: '2026-01-27'
   render_command:
     design:
     locale:
