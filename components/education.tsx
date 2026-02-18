@@ -1,5 +1,5 @@
 import { GraduationCap } from "lucide-react"
-import { SectionTitle } from "./section-title"
+import { CollapsibleSection } from "./collapsible-section"
 import { TimelineCard } from "./timeline-card"
 import { cvConfig } from "@/lib/config"
 
@@ -14,9 +14,8 @@ export function Education({ lang }: EducationProps) {
   const data = educationData[lang]
 
   return (
-    <section>
-      <SectionTitle icon={GraduationCap} title={sectionTitle[lang]} />
-      <div className="mt-6 space-y-4 sm:space-y-6">
+    <CollapsibleSection icon={GraduationCap} title={sectionTitle[lang]}>
+      <div className="space-y-4 sm:space-y-6">
         {data.map((edu, index) => (
           <TimelineCard
             key={index}
@@ -30,6 +29,6 @@ export function Education({ lang }: EducationProps) {
           />
         ))}
       </div>
-    </section>
+    </CollapsibleSection>
   )
 }

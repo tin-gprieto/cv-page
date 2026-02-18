@@ -27,8 +27,8 @@ export default function CVPage() {
         <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
           <Header lang={lang} />
           <div className="mt-8 space-y-8 sm:mt-12 sm:space-y-12">
-            <Education lang={lang} />
             <Experience lang={lang} />
+            <Education lang={lang} />
             <Skills lang={lang} />
             <Projects lang={lang} />
             <Certifications lang={lang} />

@@ -9,8 +9,10 @@ import {
   FileSpreadsheet,
   Languages as LanguagesIcon,
   LucideIcon,
+  Server,
+  SquareTerminal,
 } from "lucide-react"
-import { SectionTitle } from "./section-title"
+import { CollapsibleSection } from "./collapsible-section"
 import { AnimateOnScroll } from "./animate-on-scroll"
 import { cvConfig, TechnicalSkillCategory } from "@/lib/config"
 
@@ -20,8 +22,9 @@ interface SkillsProps {
 
 // Map icon names to actual icon components
 const iconMap: Record<TechnicalSkillCategory["iconName"], LucideIcon> = {
-  Code,
+  SquareTerminal,
   Globe,
+  Server,
   Brain,
   BarChart3,
   Database,
@@ -35,9 +38,8 @@ export function Skills({ lang }: SkillsProps) {
   const data = skillsData[lang]
 
   return (
-    <section>
-      <SectionTitle icon={Code} title={data.title} />
-      <div className="mt-6 grid gap-3 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:gap-4">
+    <CollapsibleSection icon={Code} title={data.title}>
+      <div className="grid gap-3 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:gap-4">
         {/* Technical Skills - Each as a separate card */}
         {data.technical.map((category, index) => {
           const Icon = iconMap[category.iconName]
@@ -87,24 +89,24 @@ export function Skills({ lang }: SkillsProps) {
           </div>
         </AnimateOnScroll>
 
-        {/* Soft Skills - Separate card */}
-        <AnimateOnScroll animation="scale-up" delay={350}>
+        {/* Soft Skills - Separate card spanning all columns */}
+        <AnimateOnScroll animation="scale-up" delay={350} className="sm:col-span-2 lg:col-span-3">
           <div className="group h-full rounded-lg border border-border bg-card p-4 transition-all hover:border-accent/50 hover:shadow-lg hover:shadow-accent/5 sm:p-5">
             <h3 className="mb-3 flex items-center gap-2 text-xs font-semibold text-accent sm:mb-4 sm:text-sm">
               <Lightbulb className="h-4 w-4 transition-transform group-hover:scale-110" />
               {data.soft.label}
             </h3>
-            <ul className="space-y-1 sm:space-y-1.5">
+            <ul className="grid grid-cols-2 gap-x-4 gap-y-1 sm:gap-y-1.5">
               {data.soft.items.map((skill, index) => (
-                <li key={index} className="flex items-start gap-2 text-xs text-muted-foreground sm:text-sm">
-                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent/50 transition-colors group-hover:bg-accent" />
-                  {skill}
-                </li>
+          <li key={index} className="flex items-start gap-2 text-xs text-muted-foreground sm:text-sm">
+            <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent/50 transition-colors group-hover:bg-accent" />
+            {skill}
+          </li>
               ))}
             </ul>
           </div>
         </AnimateOnScroll>
       </div>
-    </section>
+    </CollapsibleSection>
   )
 }

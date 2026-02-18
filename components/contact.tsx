@@ -4,7 +4,7 @@ import React from "react"
 
 import { useState } from "react"
 import { Mail, Send, CheckCircle, AlertCircle } from "lucide-react"
-import { SectionTitle } from "./section-title"
+import { CollapsibleSection } from "./collapsible-section"
 import { AnimateOnScroll } from "./animate-on-scroll"
 import { cvConfig } from "@/lib/config"
 import { ContactMedia } from "./contact_media"
@@ -48,16 +48,15 @@ export function Contact({ lang }: ContactProps) {
   }
 
   return (
-    <section>
-      <SectionTitle icon={Mail} title={t.title} />
-      <div className="mt-6">
+    <CollapsibleSection icon={Mail} title={t.title}>
+      <div>
         <AnimateOnScroll animation="fade-up">
           <p className="mb-6 text-center text-sm sm:text-base text-muted-foreground">{t.description}</p>
         </AnimateOnScroll>
       </div>
-      <div className="mt-6">
+      <div>
         <ContactMedia hasText={false} />
       </div>
-    </section>
+    </CollapsibleSection>
   )
 }

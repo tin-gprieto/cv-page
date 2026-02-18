@@ -1,5 +1,5 @@
 import { Award, ExternalLink } from "lucide-react"
-import { SectionTitle } from "./section-title"
+import { CollapsibleSection } from "./collapsible-section"
 import { AnimateOnScroll } from "./animate-on-scroll"
 import { cvConfig } from "@/lib/config"
 
@@ -14,9 +14,8 @@ export function Certifications({ lang }: CertificationsProps) {
   const certifications = certificationsData[lang]
 
   return (
-    <section>
-      <SectionTitle icon={Award} title={sectionTitle[lang]} />
-      <div className="mt-6 grid gap-3 grid-cols-1 sm:grid-cols-2 sm:gap-4">
+    <CollapsibleSection icon={Award} title={sectionTitle[lang]}>
+      <div className="grid gap-3 grid-cols-1 sm:grid-cols-2 sm:gap-4">
         {certifications.map((cert, index) => (
           <AnimateOnScroll key={index} animation="fade-right" delay={index * 100}>
             <div className="group h-full rounded-lg border border-border bg-card p-4 transition-all hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 sm:p-5">
@@ -48,6 +47,6 @@ export function Certifications({ lang }: CertificationsProps) {
           </AnimateOnScroll>
         ))}
       </div>
-    </section>
+    </CollapsibleSection>
   )
 }

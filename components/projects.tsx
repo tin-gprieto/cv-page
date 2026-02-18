@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { FolderGit2, ExternalLink } from "lucide-react"
-import { SectionTitle } from "./section-title"
+import { CollapsibleSection } from "./collapsible-section"
 import { AnimateOnScroll } from "./animate-on-scroll"
 import { cvConfig } from "@/lib/config"
 
@@ -15,9 +15,8 @@ export function Projects({ lang }: ProjectsProps) {
   const projects = projectsData[lang]
 
   return (
-    <section>
-      <SectionTitle icon={FolderGit2} title={sectionTitle[lang]} />
-      <div className="mt-6 grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:gap-6">
+    <CollapsibleSection icon={FolderGit2} title={sectionTitle[lang]}>
+      <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:gap-6">
         {projects.map((project, index) => (
           <AnimateOnScroll key={index} animation="fade-up" delay={index * 100}>
             <div className="group h-full overflow-hidden rounded-lg border border-border bg-card transition-all hover:border-primary/50 hover:shadow-xl hover:shadow-primary/10">
@@ -57,6 +56,6 @@ export function Projects({ lang }: ProjectsProps) {
           </AnimateOnScroll>
         ))}
       </div>
-    </section>
+    </CollapsibleSection>
   )
 }
