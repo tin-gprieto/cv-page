@@ -14,6 +14,40 @@ cv:
       username: tin-gprieto
 
   sections:
+
+    experience:
+      - company: FIUBA
+        position: Ayudante ad honorem
+        start_date: 2024-03
+        end_date: 2025-06
+        location: Buenos Aires, Argentina
+        summary:  Colaboración docente en la materia “Organización del Computador" de la carrera de Ingeniería en Informática.
+        highlights:
+          - Corrección de trabajos prácticos
+          - "Contenidos: representación binaria, microarquitectura x86, Assembly y caching"
+
+      - company: Centro Argentino de Ingenieros (CAI)
+        position: Secretario Ejecutivo de CEPSI y NGL
+        start_date: 2024-05
+        end_date: 2024-12
+        location: Buenos Aires, Argentina
+        summary: Pasantía en rol administrativo dentro de comisiones directivas y técnicas.
+        highlights:
+          - Gestión de tareas administrativas
+          - Coordinación de reuniones
+          - Confección de minutas y seguimiento de proyectos internos
+
+      - company: Banco Provincia de Buenos Aires
+        position: Programador Frontend
+        start_date: 2021-05
+        end_date: 2022-08
+        location: Buenos Aires, Argentina
+        summary: Participación en el desarrollo de soluciones web para el sector bancario.
+        highlights:
+          - Desarrollo de portal de noticias con React
+          - Implementación de CMS institucional utilizando Angular
+          - Relevamiento y análisis de requerimientos junto a áreas de negocio
+
     education:
 
       - institution: Facultad de Ingeniería, Universidad de Buenos Aires (FIUBA)
@@ -50,58 +84,25 @@ cv:
         summary:
         highlights:
 
-    experience:
-      - company: FIUBA
-        position: Ayudante ad honorem
-        start_date: 2024-03
-        end_date: 2025-06
-        location: Buenos Aires, Argentina
-        summary:  Colaboración docente en la materia “Organización del Computador" de la carrera de Ingeniería en Informática.
-        highlights:
-          - Corrección de trabajos prácticos
-          - "Contenidos: representación binaria, microarquitectura x86, Assembly y caching"
-
-      - company: Centro Argentino de Ingenieros (CAI)
-        position: Secretario Ejecutivo de CEPSI y NGL
-        start_date: 2024-05
-        end_date: 2024-12
-        location: Buenos Aires, Argentina
-        summary: Pasantía en rol administrativo dentro de comisiones directivas y técnicas.
-        highlights:
-          - Gestión de tareas administrativas
-          - Coordinación de reuniones
-          - Confección de minutas y seguimiento de proyectos internos
-
-      - company: Banco Provincia de Buenos Aires
-        position: Programador Frontend
-        start_date: 2021-05
-        end_date: 2022-08
-        location: Buenos Aires, Argentina
-        summary: Participación en el desarrollo de soluciones web para el sector bancario.
-        highlights:
-          - Desarrollo de portal de noticias con React
-          - Implementación de CMS institucional utilizando Angular
-          - Relevamiento y análisis de requerimientos junto a áreas de negocio
-
-
-
     languages:
       - bullet: Español — Nativo
       - bullet: Inglés — Intermedio
     
     technical_skills:
+      - label: Herramientas
+        details: Docker, Linux, Git, Github, Makefile, Bash (Shell Scripting)
       - label: Lenguajes de programación
-        details: C, Python, Rust, JavaScript, TypeScript, Java, Assembly, SQL
+        details: C, Python, Rust, JavaScript, TypeScript, Smalltalk, Java, Assembly
       - label: Desarrollo web
-        details: HTML, CSS, SASS, React, Angular JS
+        details: HTML, CSS, SASS, React, Angular JS, Next.js, SpringBoot
       - label: Machine Learning y Deep Learning
         details: TensorFlow, Scikit-learn, Keras
       - label: Herramientas de visualización de datos
-        details: Matplotlib, Seaborn
+        details: Matplotlib, Seaborn, Datadog, Grafana
       - label: Sistemas de gestión de bases de datos (SGBD)
-        details: MongoDB, PostgreSQL
-      - label: Herramientas
-        details: Docker, Linux, Git, Github, Makefile, Bash (Shell Scripting)
+        details: SQL, Neo4j, MongoDB, PostgreSQL
+      - label: Computación de alto rendimiento (HPC)
+        details: OpenMP, MPI, CUDA
       - label: Ofimática
         details: Excel (intermedio), Sony Vegas, GIMP
 
@@ -110,6 +111,8 @@ cv:
       - bullet: Pensamiento crítico y resolución de problemas
       - bullet: Organización y optimización de tareas
       - bullet: Adaptabilidad a nuevos desafíos
+      - bullet: Proactividad y autonomía
+      - bullet: being agile - Scrum y metodologías ágiles
 
     certifications:
       - name: '[Qiskit Fall Fest Mentor (IBM)](https://www.credly.com/badges/dcd3a2b6-df98-431b-8140-3c07b12879f2)'
@@ -130,8 +133,8 @@ cv:
         highlights:
           - Desarrollado en Rust para ambientes Unix y Linux. 
           - Implementación propia del protocolo MQTT 5.0 con QoS 1. 
-          - Coordinación de drones y cámaras mediante arquitectura Pub/Sub. 
           - Detección de incidentes con Microsoft Azure AI Vision. 
+          - Coordinación de drones y cámaras mediante arquitectura Pub/Sub.
           - Gestión de concurrencia mediante hilos y threadpools.
       - name: '[Toolbox para C](https://github.com/tin-gprieto/c_toolbox)'
         summary: Colección de herramientas personales en C para la creación de interfaces de terminal, estructuras de datos y testeo unitario.
@@ -152,7 +155,7 @@ cv:
         highlights:
           - Arquitectura Full Stack con Spring Boot y Next.js.
           - Base de datos NoSQL utilizando MongoDB 8.0.
-          - Contenedores Docker para despliegue simplificado de servicios.
+          - Gestión de proyecto mediante metodologías ágiles (Scrum) y control de versiones con Git.
           - Integración de Google Gemini AI y Google Maps.
           - Gestión de imágenes mediante almacenamiento bucket en Supabase.
 

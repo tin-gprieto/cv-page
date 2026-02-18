@@ -164,16 +164,18 @@ const SOCIAL_NETWORK_URLS: Record<string, string> = {
 
 const SKILL_ICON_MAP: Record<string, string> = {
   // Spanish
-  "Lenguajes de programación": "Code",
+  "Lenguajes de programación": "SquareTerminal",
   "Desarrollo web": "Globe",
+  "Computación de alto rendimiento (HPC)": "Server",
   "Machine Learning y Deep Learning": "Brain",
   "Herramientas de visualización de datos": "BarChart3",
   "Sistemas de gestión de bases de datos (SGBD)": "Database",
   "Herramientas": "Wrench",
   "Ofimática": "FileSpreadsheet",
   // English
-  "Programming languages": "Code",
+  "Programming languages": "SquareTerminal",
   "Web development": "Globe",
+  "High Performance Computing (HPC)": "Server",
   "Machine Learning and Deep Learning": "Brain",
   "Data visualization tools": "BarChart3",
   "Database management systems (DBMS)": "Database",
@@ -194,6 +196,7 @@ const PROJECT_IMAGES: Record<string, string> = {
   "Toolbox para C": "/images/project-toolbox.jpg",
   "Toolbox for C": "/images/project-toolbox.jpg",
   "Darkness Awesome Theme": "/images/project-awesome.jpg",
+  "TanGo - Gestión Turística": "/images/project-tango.jpg",
 }
 
 function formatDate(dateStr: string, locale: YAMLLocale = {}): string {

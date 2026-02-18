@@ -245,8 +245,8 @@
         "highlights": [
           "Desarrollado en Rust para ambientes Unix y Linux",
           "Implementación propia del protocolo MQTT 5.0 con QoS 1",
-          "Coordinación de drones y cámaras mediante arquitectura Pub/Sub",
           "Detección de incidentes con Microsoft Azure AI Vision",
+          "Coordinación de drones y cámaras mediante arquitectura Pub/Sub",
           "Gestión de concurrencia mediante hilos y threadpools"
         ]
       },
@@ -282,7 +282,7 @@
         "highlights": [
           "Arquitectura Full Stack con Spring Boot y Next.js",
           "Base de datos NoSQL utilizando MongoDB 8.0",
-          "Contenedores Docker para despliegue simplificado de servicios",
+          "Gestión de proyecto mediante metodologías ágiles (Scrum) y control de versiones con Git",
           "Integración de Google Gemini AI y Google Maps",
           "Gestión de imágenes mediante almacenamiento bucket en Supabase"
         ]
@@ -297,8 +297,8 @@
         "highlights": [
           "Developed in Rust for Unix and Linux environments",
           "Own implementation of the MQTT 5.0 protocol with QoS 1",
-          "Coordination of drones and cameras through Pub/Sub architecture",
           "Incident detection with Microsoft Azure AI Vision",
+          "Coordination of drones and cameras through Pub/Sub architecture",
           "Concurrency management through threads and threadpools"
         ]
       },
@@ -329,12 +329,12 @@
       {
         "name": "TanGo - Tourism Management",
         "url": "https://github.com/tin-gprieto/gestion-tanGo-tripadvisor",
-        "image": "/images/project-tango.jpg",
+        "image": "/images/project-default.jpg",
         "summary": "Final group work of the subject \"Management of the Development of Computer Systems\". Web platform, similar to TripAdvisor, to manage and visualize hotels, restaurants and tourist activities through microservices and AI assistance.",
         "highlights": [
           "Full Stack architecture with Spring Boot and Next.js",
           "NoSQL database using MongoDB 8.0",
-          "Docker containers for simplified deployment of services",
+          "Project management using agile methodologies (Scrum) and version control with Git",
           "Google Gemini AI and Google Maps integration",
           "Image management using bucket storage in Supabase"
         ]
@@ -372,17 +372,29 @@
       "title": "Habilidades",
       "technical": [
         {
+          "label": "Herramientas",
+          "iconName": "Wrench",
+          "items": [
+            "Docker",
+            "Linux",
+            "Git",
+            "Github",
+            "Makefile",
+            "Bash (Shell Scripting)"
+          ]
+        },
+        {
           "label": "Lenguajes de programación",
-          "iconName": "Code",
+          "iconName": "SquareTerminal",
           "items": [
             "C",
             "Python",
             "Rust",
             "JavaScript",
             "TypeScript",
+            "Smalltalk",
             "Java",
-            "Assembly",
-            "SQL"
+            "Assembly"
           ]
         },
         {
@@ -393,7 +405,9 @@
             "CSS",
             "SASS",
             "React",
-            "Angular JS"
+            "Angular JS",
+            "Next.js",
+            "SpringBoot"
           ]
         },
         {
@@ -410,27 +424,28 @@
           "iconName": "BarChart3",
           "items": [
             "Matplotlib",
-            "Seaborn"
+            "Seaborn",
+            "Datadog",
+            "Grafana"
           ]
         },
         {
           "label": "Sistemas de gestión de bases de datos (SGBD)",
           "iconName": "Database",
           "items": [
+            "SQL",
+            "Neo4j",
             "MongoDB",
             "PostgreSQL"
           ]
         },
         {
-          "label": "Herramientas",
-          "iconName": "Wrench",
+          "label": "Computación de alto rendimiento (HPC)",
+          "iconName": "Server",
           "items": [
-            "Docker",
-            "Linux",
-            "Git",
-            "Github",
-            "Makefile",
-            "Bash (Shell Scripting)"
+            "OpenMP",
+            "MPI",
+            "CUDA"
           ]
         },
         {
@@ -449,7 +464,9 @@
           "Comunicación efectiva y trabajo en equipo",
           "Pensamiento crítico y resolución de problemas",
           "Organización y optimización de tareas",
-          "Adaptabilidad a nuevos desafíos"
+          "Adaptabilidad a nuevos desafíos",
+          "Proactividad y autonomía",
+          "being agile - Scrum y metodologías ágiles"
         ]
       },
       "languages": {
@@ -472,17 +489,29 @@
       "title": "Skills",
       "technical": [
         {
+          "label": "Tools",
+          "iconName": "Wrench",
+          "items": [
+            "Docker",
+            "Linux",
+            "Git",
+            "Github",
+            "Makefile",
+            "Bash (Shell Scripting)"
+          ]
+        },
+        {
           "label": "Programming languages",
-          "iconName": "Code",
+          "iconName": "SquareTerminal",
           "items": [
             "C",
             "Python",
             "Rust",
             "JavaScript",
             "TypeScript",
+            "Smalltalk",
             "Java",
-            "Assembly",
-            "SQL"
+            "Assembly"
           ]
         },
         {
@@ -493,7 +522,9 @@
             "CSS",
             "SASS",
             "React",
-            "Angular JS"
+            "Angular JS",
+            "Next.js",
+            "SpringBoot"
           ]
         },
         {
@@ -510,27 +541,28 @@
           "iconName": "BarChart3",
           "items": [
             "Matplotlib",
-            "Seaborn"
+            "Seaborn",
+            "Datadog",
+            "Grafana"
           ]
         },
         {
           "label": "Database management systems (DBMS)",
           "iconName": "Database",
           "items": [
+            "SQL",
+            "Neo4j",
             "MongoDB",
             "PostgreSQL"
           ]
         },
         {
-          "label": "Tools",
-          "iconName": "Wrench",
+          "label": "High Performance Computing (HPC)",
+          "iconName": "Server",
           "items": [
-            "Docker",
-            "Linux",
-            "Git",
-            "Github",
-            "Makefile",
-            "Bash (Shell Scripting)"
+            "OpenMP",
+            "MPI",
+            "CUDA"
           ]
         },
         {
@@ -549,7 +581,9 @@
           "Effective communication and teamwork",
           "Critical thinking and problem solving",
           "Organization and optimization of tasks",
-          "Adaptability to new challenges"
+          "Adaptability to new challenges",
+          "Proactivity and autonomy",
+          "being agile - Scrum and agile methodologies"
         ]
       },
       "languages": {

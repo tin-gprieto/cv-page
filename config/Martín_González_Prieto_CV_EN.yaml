@@ -12,6 +12,36 @@ cv:
     - network: GitHub
       username: tin-gprieto
   sections:
+    experience:
+      - company: FIUBA
+        position: Ad honorem assistant
+        start_date: 2024-03
+        end_date: 2025-06
+        location: Buenos Aires, Argentina
+        summary: Teaching collaboration in the subject "Computer Organization" of the Computer Engineering degree.
+        highlights:
+          - Correction of practical work
+          - "Contents: binary representation, x86 microarchitecture, Assembly and caching"
+      - company: Centro Argentino de Ingenieros (CAI)
+        position: Executive Secretary of CEPSI and NGL
+        start_date: 2024-05
+        end_date: 2024-12
+        location: Buenos Aires, Argentina
+        summary: Internship in administrative role within management and technical committees.
+        highlights:
+          - Management of administrative tasks
+          - Meeting coordination
+          - Preparation of minutes and monitoring of internal projects
+      - company: Banco Provincia de Buenos Aires
+        position: Frontend Programmer
+        start_date: 2021-05
+        end_date: 2022-08
+        location: Buenos Aires, Argentina
+        summary: Participation in the development of web solutions for the banking sector.
+        highlights:
+          - News portal development with React
+          - Institutional CMS implementation using Angular
+          - Survey and analysis of requirements together with business areas
     education:
       - institution: Facultad de Ingeniería, Universidad de Buenos Aires (FIUBA)
         area: Computer Engineering
@@ -44,52 +74,24 @@ cv:
         location: Buenos Aires, Argentina
         summary: null
         highlights: null
-    experience:
-      - company: FIUBA
-        position: Ad honorem assistant
-        start_date: 2024-03
-        end_date: 2025-06
-        location: Buenos Aires, Argentina
-        summary: Teaching collaboration in the subject "Computer Organization" of the Computer Engineering degree.
-        highlights:
-          - Correction of practical work
-          - "Contents: binary representation, x86 microarchitecture, Assembly and caching"
-      - company: Centro Argentino de Ingenieros (CAI)
-        position: Executive Secretary of CEPSI and NGL
-        start_date: 2024-05
-        end_date: 2024-12
-        location: Buenos Aires, Argentina
-        summary: Internship in administrative role within management and technical committees.
-        highlights:
-          - Management of administrative tasks
-          - Meeting coordination
-          - Preparation of minutes and monitoring of internal projects
-      - company: Banco Provincia de Buenos Aires
-        position: Frontend Programmer
-        start_date: 2021-05
-        end_date: 2022-08
-        location: Buenos Aires, Argentina
-        summary: Participation in the development of web solutions for the banking sector.
-        highlights:
-          - News portal development with React
-          - Institutional CMS implementation using Angular
-          - Survey and analysis of requirements together with business areas
     languages:
       - bullet: Spanish — Native
       - bullet: English — Intermediate
     technical_skills:
+      - label: Tools
+        details: Docker, Linux, Git, Github, Makefile, Bash (Shell Scripting)
       - label: Programming languages
-        details: C, Python, Rust, JavaScript, TypeScript, Java, Assembly, SQL
+        details: C, Python, Rust, JavaScript, TypeScript, Smalltalk, Java, Assembly
       - label: Web development
-        details: HTML, CSS, SASS, React, Angular JS
+        details: HTML, CSS, SASS, React, Angular JS, Next.js, SpringBoot
       - label: Machine Learning and Deep Learning
         details: TensorFlow, Scikit-learn, Keras
       - label: Data visualization tools
-        details: Matplotlib, Seaborn
+        details: Matplotlib, Seaborn, Datadog, Grafana
       - label: Database management systems (DBMS)
-        details: MongoDB, PostgreSQL
-      - label: Tools
-        details: Docker, Linux, Git, Github, Makefile, Bash (Shell Scripting)
+        details: SQL, Neo4j, MongoDB, PostgreSQL
+      - label: High Performance Computing (HPC)
+        details: OpenMP, MPI, CUDA
       - label: Office automation
         details: Excel (intermedio), Sony Vegas, GIMP
     soft_skills:
@@ -97,6 +99,8 @@ cv:
       - bullet: Critical thinking and problem solving
       - bullet: Organization and optimization of tasks
       - bullet: Adaptability to new challenges
+      - bullet: Proactivity and autonomy
+      - bullet: being agile - Scrum and agile methodologies
     certifications:
       - name: "[Qiskit Fall Fest Mentor (IBM)](https://www.credly.com/badges/dcd3a2b6-df98-431b-8140-3c07b12879f2)"
         summary: Organizer of the first Qiskit Fall Fest days at FIUBA.
@@ -115,8 +119,8 @@ cv:
         highlights:
           - Developed in Rust for Unix and Linux environments.
           - Own implementation of the MQTT 5.0 protocol with QoS 1.
-          - Coordination of drones and cameras through Pub/Sub architecture.
           - Incident detection with Microsoft Azure AI Vision.
+          - Coordination of drones and cameras through Pub/Sub architecture.
           - Concurrency management through threads and threadpools.
       - name: "[Toolbox for C](https://github.com/tin-gprieto/c_toolbox)"
         summary: Collection of personal tools in C for creating terminal interfaces, data structures and unit testing.
@@ -137,7 +141,7 @@ cv:
         highlights:
           - Full Stack architecture with Spring Boot and Next.js.
           - NoSQL database using MongoDB 8.0.
-          - Docker containers for simplified deployment of services.
+          - Project management using agile methodologies (Scrum) and version control with Git.
           - Google Gemini AI and Google Maps integration.
           - Image management using bucket storage in Supabase.
 design:

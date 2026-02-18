@@ -69,7 +69,7 @@ export interface LanguageEntry {
 
 export interface TechnicalSkillCategory {
   label: string
-  iconName: "Code" | "Globe" | "Brain" | "BarChart3" | "Database" | "Wrench" | "FileSpreadsheet"
+  iconName: "SquareTerminal" | "Server" | "Globe" | "Brain" | "BarChart3" | "Database" | "Wrench" | "FileSpreadsheet" 
   items: string[]
 }
 
