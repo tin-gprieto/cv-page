@@ -144,6 +144,15 @@ cv:
           - Project management using agile methodologies (Scrum) and version control with Git.
           - Google Gemini AI and Google Maps integration.
           - Image management using bucket storage in Supabase.
+      - name: "[CV-Page](https://github.com/tin-gprieto/cv-page)"
+        summary: Personal bilingual CV/Portfolio website with automatic generation of translations and export to PDF using RenderCV.
+        highlights:
+          - Frontend developed with Next.js 14, TypeScript and Tailwind CSS.
+          - Bilingual support (Spanish/English) with dynamic switching.
+          - Declarative configuration using YAML as a single source of truth.
+          - Automatic translation with Google Translate API.
+          - Generation of professional PDFs with RenderCV.
+          - Continuous deployment in Vercel.
 design:
   theme: engineeringclassic
   colors:

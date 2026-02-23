@@ -197,6 +197,7 @@ const PROJECT_IMAGES: Record<string, string> = {
   "Toolbox for C": "/images/project-toolbox.jpg",
   "Darkness Awesome Theme": "/images/project-awesome.jpg",
   "TanGo - Gestión Turística": "/images/project-tango.jpg",
+  "CV-Page": "/images/project-cv-page.jpg",
 }
 
 function formatDate(dateStr: string, locale: YAMLLocale = {}): string {
@@ -450,13 +451,12 @@ function buildConfig(): void {
       },
     },
     sectionTitles: {
-      experience: { es: "Experiencia Profesional", en: "Professional Experience" },
+      experience: { es: "Experiencia Laboral", en: "Work Experience" },
       education: { es: "Educación", en: "Education" },
       skills: { es: "Habilidades", en: "Skills" },
       projects: { es: "Proyectos", en: "Projects" },
       certifications: { es: "Certificaciones", en: "Certifications" },
-      languages: { es: "Idiomas", en: "Languages" },
-      contact: { es: "Contacto", en: "Contact" },
+      languages: { es: "Idiomas", en: "Languages" }
     },
     footerText: (() => {
       const currentDate = spanishData.settings?.current_date || new Date().toISOString().split("T")[0]

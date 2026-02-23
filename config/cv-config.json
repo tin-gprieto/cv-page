@@ -286,6 +286,20 @@
           "Integración de Google Gemini AI y Google Maps",
           "Gestión de imágenes mediante almacenamiento bucket en Supabase"
         ]
+      },
+      {
+        "name": "CV-Page",
+        "url": "https://github.com/tin-gprieto/cv-page",
+        "image": "/images/project-cv-page.jpg",
+        "summary": "Página web personal de CV/Portfolio bilingüe con generación automática de traducciones y exportación a PDF mediante RenderCV.",
+        "highlights": [
+          "Frontend desarrollado con Next.js 14, TypeScript y Tailwind CSS",
+          "Soporte bilingüe (Español/Inglés) con cambio dinámico",
+          "Configuración declarativa mediante YAML como fuente única de verdad",
+          "Traducción automática con Google Translate API",
+          "Generación de PDFs profesionales con RenderCV",
+          "Despliegue continuo en Vercel"
+        ]
       }
     ],
     "en": [
@@ -337,6 +351,20 @@
           "Project management using agile methodologies (Scrum) and version control with Git",
           "Google Gemini AI and Google Maps integration",
           "Image management using bucket storage in Supabase"
+        ]
+      },
+      {
+        "name": "CV-Page",
+        "url": "https://github.com/tin-gprieto/cv-page",
+        "image": "/images/project-cv-page.jpg",
+        "summary": "Personal bilingual CV/Portfolio website with automatic generation of translations and export to PDF using RenderCV.",
+        "highlights": [
+          "Frontend developed with Next.js 14, TypeScript and Tailwind CSS",
+          "Bilingual support (Spanish/English) with dynamic switching",
+          "Declarative configuration using YAML as a single source of truth",
+          "Automatic translation with Google Translate API",
+          "Generation of professional PDFs with RenderCV",
+          "Continuous deployment in Vercel"
         ]
       }
     ]
@@ -655,8 +683,8 @@
   },
   "sectionTitles": {
     "experience": {
-      "es": "Experiencia Profesional",
-      "en": "Professional Experience"
+      "es": "Experiencia Laboral",
+      "en": "Work Experience"
     },
     "education": {
       "es": "Educación",
@@ -677,10 +705,6 @@
     "languages": {
       "es": "Idiomas",
       "en": "Languages"
-    },
-    "contact": {
-      "es": "Contacto",
-      "en": "Contact"
     }
   },
   "footerText": {
