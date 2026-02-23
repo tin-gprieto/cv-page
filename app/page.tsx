@@ -8,7 +8,6 @@ import { Experience } from "@/components/experience"
 import { Skills } from "@/components/skills"
 import { Projects } from "@/components/projects"
 import { Certifications } from "@/components/certifications"
-import { Contact } from "@/components/contact"
 import { cvConfig } from "@/lib/config"
 
 const { footerText } = cvConfig
@@ -32,7 +31,6 @@ export default function CVPage() {
             <Skills lang={lang} />
             <Projects lang={lang} />
             <Certifications lang={lang} />
-            <Contact lang={lang} />
           </div>
           <footer className="mt-12 border-t border-border pt-6 text-center sm:mt-16 sm:pt-8">
             <p className="text-xs sm:text-sm text-muted-foreground">{footerText[lang]}</p>
