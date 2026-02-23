@@ -162,10 +162,10 @@ cv:
         summary: Página web personal de CV/Portfolio bilingüe con generación automática de traducciones y exportación a PDF mediante RenderCV.
         highlights:
           - Frontend desarrollado con Next.js 14, TypeScript y Tailwind CSS.
-          - Soporte bilingüe (Español/Inglés) con cambio dinámico.
-          - Configuración declarativa mediante YAML como fuente única de verdad.
           - Traducción automática con Google Translate API.
           - Generación de PDFs profesionales con RenderCV.
+          - Soporte bilingüe (Español/Inglés) con cambio dinámico.
+          - Configuración declarativa mediante YAML como fuente única de verdad.
           - Despliegue continuo en Vercel.
 
 design:
